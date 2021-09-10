@@ -99,7 +99,7 @@ Item {
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width * 0.8
-                height: selector.height * 0.5
+                height: selector.height - frame_search.y
                 anchors.top: res.bottom
                 border.color: "blue"
             }
