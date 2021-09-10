@@ -17,5 +17,6 @@ Rectangle {
         width: parent.width * 0.9
         height: width
         radius: 4
+        anchors.centerIn: parent
     }
 }
