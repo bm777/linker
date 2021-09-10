@@ -87,7 +87,7 @@ Rectangle {
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: setting.bottom
             anchors.topMargin: 4
-            color: "#1552F0"
+            color: "#5E7B94"
         }
         MouseArea {
             anchors.fill: parent
