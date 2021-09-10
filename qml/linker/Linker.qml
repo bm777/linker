@@ -86,6 +86,10 @@ Item {
                     anchors.centerIn: parent
                     color: "#ffffff"
                 }
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked: load.running = true
+                }
             }
             /////
             //////////////////////////////////////////////////////////////////////
