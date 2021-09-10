@@ -100,7 +100,7 @@ Item {
             Rectangle {
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width
+                width: root.width
                 anchors.top: res.bottom
                 height: 1
                 border.color: "blue"
