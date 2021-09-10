@@ -21,7 +21,7 @@ Item {
                 x: y
 
                 Search {
-
+                    id: search
                 }
             }
         }
