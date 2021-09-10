@@ -112,7 +112,7 @@ Item {
     /// SequentialAnimation
     SequentialAnimation {
         running: {
-            if(selector.visible && selector.y !== 0) return true
+            if(selector.y !== 0) return true
             else return false
         }
 
