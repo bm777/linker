@@ -90,7 +90,7 @@ Item {
                 visible: !submit.visible
                 text: "OPtimized result rearby"
                 x: parent.width * 0.1
-                font{family: "Comfortaa"; pointSize: 10; bold: true}
+                font{family: "Comfortaa"; pointSize: 12; bold: false}
                 color: "#646D76"
                 anchors.top: frame_search.bottom
                 anchors.topMargin: 10
