@@ -110,6 +110,14 @@ Item {
                 color: "#80b6b6b6"
 
             }
+            Rectangle {
+                id: backend
+                anchors.centerIn: parent
+                width: parent.width * 1
+                height: selector.height - res.y - res.height - 5 // 5 is for separator
+                anchors.top: res.bottom
+                anchors.topMargin: 5
+            }
 
             Rectangle {id: result
                 visible: false
