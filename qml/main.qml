@@ -16,6 +16,7 @@ Window {
         visible: true
         width: parent.width
         height: parent.height
+        anchors.horizontalCenter: parent.horizontalCenter
     }
 
 
@@ -34,23 +35,25 @@ Window {
         }
     }
 
-    ParallelAnimation {
-
+    SequentialAnimation {
         id: effect
 
-        NumberAnimation {
-            target: splash
-            property: "width"
-            duration: 500
-            to: 40
-            easing.type: Easing.InOutQuad
+        ParallelAnimation {
+            NumberAnimation {
+                target: splash
+                property: "width"
+                duration: 500
+                to: 40
+                easing.type: Easing.InOutQuad
+            }
+            NumberAnimation {
+                target: splash
+                property: "height"
+                duration: 500
+                to: 40
+                easing.type: Easing.InOutQuad
+            }
         }
-        NumberAnimation {
-            target: splash
-            property: "height"
-            duration: 500
-            to: 40
-            easing.type: Easing.InOutQuad
-        }
+
     }
 }
