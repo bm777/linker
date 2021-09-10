@@ -30,7 +30,7 @@ Rectangle {
 
         // end for open
         Rectangle {
-            height: parent.height * 0.5
+            height: parent.height * 0.6
             width: height * 2
             radius: height/2
             color: "#1552f0"
