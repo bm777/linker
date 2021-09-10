@@ -94,6 +94,10 @@ Rectangle {
             color: "#000000"
             x: root.width * 0.1
         }
+        Organisation {
+            height: parent.height * 0.8
+            width: height
+        }
     }
 
 }
