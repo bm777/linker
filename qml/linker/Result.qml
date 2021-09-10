@@ -9,7 +9,7 @@ Rectangle {
     Rectangle {
         anchors.centerIn: parent
         width: parent.width
-        height: parent.height * 0.9
+        height: parent.height * 0.95
         radius: 5
 
         Rectangle {
