@@ -111,10 +111,7 @@ Item {
 
     /// SequentialAnimation
     SequentialAnimation {
-        running: {
-            if(selector.y === 0) return false
-            else return true
-        }
+        running: linker.visible
 
         NumberAnimation {
             target: selector
