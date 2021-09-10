@@ -130,7 +130,7 @@ Rectangle {
                         width: height
                         company: "WorkerTN"
                         img: "qrc:img/e3"
-                        value: 28
+                        value: 25
                     }
                     Organisation {
                         height: org.height * 0.7
@@ -146,6 +146,9 @@ Rectangle {
                     Organisation {
                         height: org.height * 0.7
                         width: height
+                        company: "WorkerTN"
+                        img: "qrc:img/e3"
+                        value: 25
                     }
                 }
             }
