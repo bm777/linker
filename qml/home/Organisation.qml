@@ -53,7 +53,7 @@ Rectangle {
             color: "#646D76"
             anchors.top: v.bottom
             anchors.topMargin: 0
-            x: v.x + 15
+            x: v.x
         }
     }
 }
