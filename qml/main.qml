@@ -33,7 +33,7 @@ Window {
     }
 
     ParallelAnimation {
-        running: shutdown
+        running: true
         id: effect
 
         NumberAnimation {
