@@ -102,14 +102,14 @@ Rectangle {
             x: root.width * 0.1
             y: label_org.height
             color: "transparent"
-            ScrollView {
+            Flickable {
                 clip: true
                 width: parent.width
                 height: parent.height
                 contentWidth: row.width
                 contentHeight: row.height
                 y: org.height - height
-                spacing: 5
+//                spacing: 5
 
                 Row {
                     id: row
