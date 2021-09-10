@@ -25,7 +25,7 @@ Item {
 
     // [2] : Home place
     Home {
-
+        id: home
     }
 
 }
