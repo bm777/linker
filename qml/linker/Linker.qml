@@ -93,6 +93,12 @@ Item {
                     anchors.centerIn: parent
                     color: "#ffffff"
                 }
+                MouseArea {
+                    anchors.fill: parent
+                    onClicked: {
+                        up.running = true
+                    }
+                }
             }
         }
     }
