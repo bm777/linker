@@ -25,7 +25,8 @@ Item {
             Text {
                 id: logo
                 text: "Linker"
-                font{family: "Comfortaa"; pointSize: 15; bold: fals}
+                font{family: "Comfortaa"; pointSize: 15; bold: true}
+                anchors.horizontalCenter: parent.horizontalCenter
             }
 
             Rectangle {id: frame_search
