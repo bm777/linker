@@ -20,6 +20,7 @@ Item {
                 anchors.horizontalCenter: parent.horizontalCenter
                 x: y
                 radius: height/2
+                color: "#10b6b6b6"
 
                 Search {
                     id: search
