@@ -92,7 +92,7 @@ Rectangle {
             text: "Top organisations"
             font{family: "Comfortaa"; pointSize: 14; bold: true}
             color: "#000000"
-
+            x: root.width * 1
         }
     }
 
