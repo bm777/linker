@@ -56,7 +56,6 @@ Rectangle {
             id: desc
             text: "Get hired for your first time today"
             font{family: "Comfortaa"; pointSize: 12; bold: false}
-            anchors.centerIn: parent
             color: "#646D76"
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: welcome.bottom
