@@ -114,7 +114,7 @@ Item {
         running: linker.visible
 
         NumberAnimation {
-            running: false
+            running: stop()
             target: selector
             property: "y"
             to: root.height * 0.5
