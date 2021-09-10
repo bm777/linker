@@ -20,16 +20,17 @@ Rectangle {
             anchors.verticalCenter: parent.verticalCenter
             x: y
 
-            Rectangle {
+            Rectangle {id: point
                 height: parent.height * 0.2
                 width: height
                 color: "#1552f0"
                 anchors.centerIn: parent
             }
             Rectangle {
-                height: parent.height * 0.2
+                height: parent.height * 0.5
                 width: height
                 color: "#1552f0"
+                x: parent.width - point.x - width
                 anchors.verticalCenter: parent.verticalCenter
             }
         }
