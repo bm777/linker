@@ -118,6 +118,14 @@ Rectangle {
                         height: org.height * 0.7
                         width: height
                     }
+                    Organisation {
+                        height: org.height * 0.7
+                        width: height
+                    }
+                    Organisation {
+                        height: org.height * 0.7
+                        width: height
+                    }
                 }
             }
 
