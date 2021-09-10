@@ -253,7 +253,7 @@ Item {
         id: pop
         width: parent.width * 0.8
         height: width
-        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.centerIn: parent
     }
 
     Timer {
