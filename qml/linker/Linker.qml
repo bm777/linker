@@ -125,63 +125,63 @@ Item {
                     contentHeight: col.height
                     contentWidth: col.width
                     spacing: 5
-
+                    property real inter: selector.width * 0.98
                     Column {
                         id: col
                         Result {
-                            width: selector.width * 0.98
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                         Result {
-                            width: selector.width * 0.95
+                            width: inter
                             x: (selector.width - width)/2
                         }
                     }
