@@ -153,7 +153,7 @@ Item {
                         Result {
                             width: inter
                             x: (selector.width - width)/2
-                            position: "Famrer for plaing rice for 3 weeks"
+                            position: "Famrer for planting rice for 3 weeks"
                         }
                         Result {
                             width: inter
