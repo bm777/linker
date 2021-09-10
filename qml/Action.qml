@@ -6,7 +6,7 @@ Rectangle {
 //    border.color: "red"
     property bool home_clicked: true
     property bool linker_clicked: false
-    property bool stteing_clicked: false
+    property bool setting_clicked: false
 
     Rectangle {id: frame_home
         height: parent.height * 0.7
@@ -35,7 +35,7 @@ Rectangle {
                 label_home.color = "#1552F0"
                 home_clicked = true
                 linker_clicked = false
-                frame_setting = false
+                setting_clicked = false
             }
         }
     }
