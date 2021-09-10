@@ -8,4 +8,10 @@ Item {
         anchors.fill: parent
         color: "#1552F0"
     }
+
+    // content text
+    Text {
+        id: label
+        text: "Linker"
+    }
 }
