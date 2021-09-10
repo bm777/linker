@@ -101,7 +101,7 @@ Rectangle {
             height: parent.height * 0.9
             x: root.width * 0.1
             y: label_org.height
-            border.color: "red"
+            color: "transparent"
         }
     }
 
