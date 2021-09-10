@@ -14,7 +14,6 @@ Item {
         width: parent.width
         height: parent.height - action.height
         visible: action.home_clicked
-
     }
 
 
