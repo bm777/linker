@@ -8,5 +8,9 @@ Window {
     height: Screen.height === 811 ? Screen.height : 811
     title: qsTr("Linker")
 
-
+    // Splash
+    Splash {
+        id: splash
+        visible: true
+    }
 }
