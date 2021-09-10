@@ -3,6 +3,10 @@ import QtQuick 2.0
 Item {
     id: root
 
+    Rectangle {
+        border.color: "blue"
+    }
+
     Rectangle {id: logomark
         width: parent.width
         height: parent.height * 0.25
