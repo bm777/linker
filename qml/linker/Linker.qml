@@ -84,6 +84,10 @@ Item {
                 radius: height/2
                 anchors.top: desc.bottom
                 anchors.topMargin: 10
+
+                Text {
+                    text: "Go"
+                }
             }
         }
     }
