@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/Splash.qml</file>
+        <file>qml/App.qml</file>
+        <file>qml/home/Home.qml</file>
+        <file>qml/setting/Setting.qml</file>
+        <file>qml/linker/Linker.qml</file>
+        <file>qml/Action.qml</file>
+        <file alias="img/home">img/home.png</file>
+        <file alias="img/ho-dark">img/home-dark.png</file>
+        <file alias="img/set">img/setting.png</file>
+        <file alias="img/set-dark">img/setting-dark.png</file>
+        <file alias="img/share">img/share.png</file>
+        <file>font/Comfortaa-Regular.ttf</file>
+        <file alias="img/boss">img/boss.png</file>
+        <file alias="img/farmer">img/farmer.png</file>
+        <file>qml/home/Organisation.qml</file>
+        <file alias="img/e1">img/e1.png</file>
+        <file alias="img/e2">img/e2.jpg</file>
+        <file alias="img/e3">img/e3.png</file>
+        <file>qml/linker/Search.qml</file>
+        <file alias="img/micro">img/micro.png</file>
+        <file alias="img/search">img/search.png</file>
+        <file>qml/linker/Result.qml</file>
+        <file alias="img/inf">img/inf.gif</file>
+        <file alias="img/loading">img/loading.gif</file>
+        <file>qml/linker/Pop.qml</file>
+    </qresource>
+</RCC>
