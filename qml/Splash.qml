@@ -2,6 +2,16 @@ import QtQuick 2.0
 
 Rectangle {
     id: root
+    Behavior on width {
+        NumberAnimation {
+            target: root
+            property: "radius"
+            duration: 500
+            from: 40
+            to: 50
+            easing.type: Easing.InOutQuad
+        }
+    }
 
     Rectangle {
         anchors.fill: parent
