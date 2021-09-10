@@ -249,6 +249,12 @@ Item {
             }
         }
     }
+    Pop {
+        id: pop
+        width: parent.width * 0.8
+        height: width
+        anchors.horizontalCenter: parent.horizontalCenter
+    }
 
     Timer {
         id: load
