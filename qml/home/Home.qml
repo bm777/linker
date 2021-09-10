@@ -4,8 +4,8 @@ Item {
     id: root
 
     Rectangle {
-        width: parent.width
-        height: parent.height
+        width: 100
+        height: 100
         border.color: "blue"
     }
 
