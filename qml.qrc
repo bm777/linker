@@ -23,5 +23,7 @@
         <file alias="img/micro">img/micro.png</file>
         <file alias="img/search">img/search.png</file>
         <file>qml/linker/Result.qml</file>
+        <file>img/inf.gif</file>
+        <file>img/loading.gif</file>
     </qresource>
 </RCC>
