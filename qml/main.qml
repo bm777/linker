@@ -35,33 +35,38 @@ Window {
         }
     }
 
-    SequentialAnimation {
+    ParallelAnimation {
         id: effect
 
-        ParallelAnimation {
-            NumberAnimation {
-                target: splash
-                property: "width"
-                duration: 500
-                to: 40
-                easing.type: Easing.InOutQuad
-            }
-            NumberAnimation {
-                target: splash
-                property: "height"
-                duration: 500
-                to: 40
-                easing.type: Easing.InOutQuad
-            }
-            NumberAnimation {
-                target: splash
-                property: "radius"
-                duration: 500
-//                from: 40
-                to: 50
-                easing.type: Easing.InOutQuad
-            }
+        NumberAnimation {
+            target: splash
+            property: "width"
+            duration: 500
+            to: 40
+            easing.type: Easing.InOutQuad
         }
-
+        NumberAnimation {
+            target: splash
+            property: "height"
+            duration: 500
+            to: 40
+            easing.type: Easing.InOutQuad
+        }
+        NumberAnimation {
+            target: splash
+            property: "radius"
+            duration: 500
+//                from: 40
+            to: 50
+            easing.type: Easing.InOutQuad
+        }
+        NumberAnimation {
+            target: splash
+            property: "y"
+            duration: 500
+//                from: 40
+            to: root.height - 80
+            easing.type: Easing.InOutQuad
+        }
     }
 }
