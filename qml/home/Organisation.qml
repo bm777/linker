@@ -52,7 +52,7 @@ Rectangle {
             font{family: "Comfortaa"; pointSize: 9; bold: false}
             color: "#646D76"
             anchors.top: v.bottom
-            anchors.topMargin: parent.height * 0.05
+            anchors.topMargin: parent.height * 0.01
             x: v.x
         }
     }
