@@ -97,7 +97,7 @@ Item {
                 anchors.topMargin: 10
             }
 
-            Rectangle {
+            Rectangle {id: separator
                 visible: !submit.visible
                 x: 0
                 width: root.width
@@ -116,15 +116,15 @@ Item {
                 color: "transparent"
 //                border.color: "blue"
             }
-//            DropShadow {
-//                anchors.fill: result
-//                horizontalOffset: 3
-//                verticalOffset: 3
-//                radius: 8.0
-//                samples: 17
-//                color: "#80000000"
-//                source: result
-//            }
+            DropShadow {
+                anchors.fill: result
+                horizontalOffset: 3
+                verticalOffset: 3
+                radius: 8.0
+                samples: 17
+                color: "#80000000"
+                source: result
+            }
 
 
             ////////////////////////////////////////////////////////////////////////////////////
