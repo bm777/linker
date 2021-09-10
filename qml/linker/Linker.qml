@@ -69,11 +69,11 @@ Item {
             Text {
                 id: desc
                 text: "Search open opportunities around you!"
-                font{family: "Comfortaa"; pointSize: 14; bold: false}
+                font{family: "Comfortaa"; pointSize: 12; bold: false}
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: "#646D76"
                 anchors.top: frame_search.bottom
-                anchors.topMargin: 80
+                anchors.topMargin: 20
             }
         }
 
