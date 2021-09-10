@@ -10,7 +10,5 @@ TextField {
     background: Rectangle {
 
     }
-    cursorVisible: c_visible
-
 
 }
