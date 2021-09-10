@@ -68,6 +68,16 @@ Rectangle {
         anchors.top: speech.bottom
         border.color: "blue"
         color: "transparent"
+        Rectangle {
+            anchors.centerIn: parent
+            width: parent.width * 0.8
+            height: 70
+            color: "#1552F0"
+            radius: 10
+            Text {
+                text: "Get hired"
+            }
+        }
     }
     Rectangle {id: org
         width: parent.width
