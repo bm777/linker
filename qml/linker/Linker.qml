@@ -128,7 +128,6 @@ Item {
                         id: col
                         Result {
                             width: selector.width * 0.8
-                            height: 4
                         }
                     }
                 }
