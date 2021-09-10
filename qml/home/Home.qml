@@ -15,7 +15,7 @@ Rectangle {
         }
         Image {
             id: share
-            source: "qrc:img/share"
+            source: "qrc:img/link"
             x: parent.width/2 - width/2
             y: parent.height/2 - height/2
             width: 100
