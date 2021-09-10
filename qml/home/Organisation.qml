@@ -6,6 +6,7 @@ Rectangle {
 //    border.color: "red"
     property string img: "qrc:img/e1"
     property string company: "GetBoarded"
+    property int value: 38
 
     RectangularGlow {
         anchors.fill: child
@@ -29,6 +30,15 @@ Rectangle {
             x: parent.width * 0.1
             y: x
         }
+        Text {
+            text: company
+            font{family: "Comfortaa"; pointSize: 9; bold: false}
+            color: "#646D76"
+            anchors.left: logo.right
+            anchors.leftMargin: 5
+            anchors.verticalCenter: logo.verticalCenter
+        }
+
         Text {
             text: company
             font{family: "Comfortaa"; pointSize: 9; bold: false}
