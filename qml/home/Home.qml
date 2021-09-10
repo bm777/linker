@@ -34,6 +34,8 @@ Rectangle {
             }
         }
     }
+
+    // the second
     Rectangle {id: speech
         width: parent.width
         height: parent.height * 0.15
