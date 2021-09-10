@@ -65,5 +65,10 @@ Rectangle {
             y: circle.y
         }
     }
+    Pop {
+        id: pop
+        width: Screen.width
+        height: Screen.height
+    }
 
 }
