@@ -2,7 +2,8 @@ import QtQuick 2.0
 
 Rectangle {
     id: root
-    border.color: "blue"
+//    border.color: "blue"
+    radius: width * 0.1
     property string position: "How to plant rice ? this will show you how to plant on a wrong saison."
 
     Rectangle {
