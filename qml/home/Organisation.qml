@@ -45,7 +45,7 @@ Rectangle {
             color: "#646D76"
             anchors.top: logo.right
             anchors.topMargin: parent.height * 0.2
-            anchors.verticalCenter: parent.horizontalCenter
+            anchors.horizontalCenter: parent.horizontalCenter
         }
     }
 }
