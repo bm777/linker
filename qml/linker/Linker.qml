@@ -83,6 +83,7 @@ Item {
                 color: "#1552F0"
                 radius: height/2
                 anchors.top: desc.bottom
+                anchors.topMargin: 10
             }
         }
     }
