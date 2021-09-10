@@ -17,6 +17,14 @@ Rectangle {
             rotation: 10
             radius: 5
         }
+        Rectangle {
+            width: parent.width * 0.4
+            height: width
+            anchors.centerIn: parent
+            color: "#F1C40F"
+            rotation: -10
+            radius: 5
+        }
     }
     Rectangle {id: speech
         width: parent.width
