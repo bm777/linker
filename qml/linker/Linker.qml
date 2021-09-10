@@ -265,6 +265,7 @@ Item {
     }
     Rectangle {
         width: parent.width
+        height: root.height
         visible: pop.visible
         Pop {
             id: pop
