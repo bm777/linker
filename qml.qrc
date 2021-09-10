@@ -16,5 +16,6 @@
         <file>font/Comfortaa-Regular.ttf</file>
         <file alias="img/boss">img/boss.png</file>
         <file alias="img/farmer">img/farmer.png</file>
+        <file>qml/home/Organisation.qml</file>
     </qresource>
 </RCC>
