@@ -98,7 +98,7 @@ Item {
             Rectangle {
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width * 0.8
+                width: parent.width * 0.9
                 height: selector.height - res.y - res.height
                 anchors.top: res.bottom
                 color: "transparent"
