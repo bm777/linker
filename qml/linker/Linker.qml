@@ -125,7 +125,7 @@ Item {
     ////////////////////////////////////////////////////////////////////////////////////
     Text {
         id: res
-        text: "Result Nearby"
+        text: "OPtimized result rearby"
     }
 
 
