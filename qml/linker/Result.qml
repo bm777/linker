@@ -65,11 +65,6 @@ Rectangle {
             y: circle.y
         }
     }
-    Pop {
-        id: pop
-        width: parent.width * 0.8
-        height: root.height * 2
-        anchors.horizontalCenter: parent.horizontalCenter
-    }
+
 
 }
