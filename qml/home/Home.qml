@@ -99,6 +99,7 @@ Rectangle {
             id: frame
             width: parent.width * 0.9
             height: parent.height * 0.9
+            x: root.width * 0.1
             border.color: "red"
         }
     }
