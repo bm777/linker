@@ -282,7 +282,7 @@ Item {
         interval: 2000
         repeat: false
         onTriggered: {
-            if("agriculture".includes(search.text)) result.visible = true
+            if(search.text.toLowerCase().includes("agriculture")) result.visible = true
         }
     }
 
