@@ -149,61 +149,74 @@ Item {
                         Result {
                             width: inter
                             x: (selector.width - width)/2
-                            MouseArea {anchors.fill: parent; onClicked: pop.visible = true }
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
-                            position: "Famrer for planting rice for 3 weeks"
+                            p: "Famrer for planting rice for 3 weeks"
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
-                            position: "Famrer for weeding for 5 weeks"
+                            p: "Famrer for weeding for 5 weeks"
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
                         }
                     }
                 }
