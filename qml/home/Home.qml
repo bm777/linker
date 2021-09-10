@@ -13,7 +13,7 @@ Rectangle {
             width: parent.width * 0.4
             height: width
             anchors.centerIn: parent
-            color: "#1552F0"
+            color: "#F1C40F"
             rotation: 10
             radius: 5
         }
@@ -21,7 +21,7 @@ Rectangle {
             width: parent.width * 0.4
             height: width
             anchors.centerIn: parent
-            color: "#F1C40F"
+            color: "#1552F0"
             rotation: -10
             radius: 5
         }
