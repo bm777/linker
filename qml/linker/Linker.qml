@@ -124,7 +124,7 @@ Item {
                     height: parent.height
                     contentHeight: col.height
                     contentWidth: col.width
-                    spacing: 10
+                    spacing: 5
 
                     Column {
                         id: col
