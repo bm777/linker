@@ -283,7 +283,10 @@ Item {
         repeat: false
         onTriggered: {
             if(search.text.toLowerCase().includes("agriculture")) result.visible = true
-            else result.visible = true
+            else {
+                result.visible = true
+                col.visible = false
+            }
         }
     }
 
