@@ -4,7 +4,7 @@ Rectangle {
     id: root
 //    border.color: "blue"
     radius: width * 0.1
-    property string position: "How to plant rice ? this will show you how to plant on a wrong saison."
+    property string p: "How to plant rice ? this will show you how to plant on a wrong saison."
     property string place: "Singapore"
     Rectangle {
         width: parent.width * 0.12
@@ -22,7 +22,7 @@ Rectangle {
     }
 
     Text {id: lab
-        text: position
+        text: p
         font{family: "Comfortaa"; pointSize: 17}
         anchors.horizontalCenter: parent.horizontalCenter
         y: parent.height * 0.2
