@@ -42,6 +42,14 @@ Rectangle {
         anchors.top: logomark.bottom
 //        border.color: "blue"
         color: "transparent"
+
+        Text {
+            id: welcome
+            text: "Welcome to Linker!"
+            font{family: "Comfortaa"; pointSize: 18; bold: true}
+            anchors.centerIn: parent
+            color: "#ffffff"
+        }
     }
     Rectangle {id: hired
         width: parent.width
