@@ -32,6 +32,9 @@ Rectangle {
                 color: "#1552f0"
                 x: parent.width - point.x - width
                 anchors.verticalCenter: parent.verticalCenter
+                Text {
+                    text: "Open"
+                }
             }
         }
     }
