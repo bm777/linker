@@ -7,7 +7,7 @@ Item {
         width: parent.width
         height: parent.height
         color: "#EDF8FF"
-
+        ////////////////////////////////////////////////////////////////////////////
         Rectangle {id: selector
             width: parent.width
             height: parent.height * 1
@@ -108,6 +108,17 @@ Item {
             to: root.height * 0.5
             duration: 500
             easing.type: Easing.OutBack
+        }
+    }
+    ParallelAnimation {
+        id: up
+
+        NumberAnimation {
+            target: selector
+            property: "y"
+            to: 0
+            duration: 500
+            easing.type: Easing.InOutQuad
         }
     }
 }
