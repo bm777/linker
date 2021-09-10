@@ -72,8 +72,8 @@ Item {
                 font{family: "Comfortaa"; pointSize: 14; bold: false}
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: "#646D76"
-                anchors.bottom: frame_search.top
-                anchors.bottomMargin: 20
+                anchors.top: frame_search.bottom
+                anchors.topMargin: 20
             }
         }
 
