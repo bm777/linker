@@ -24,10 +24,10 @@ Item {
                 // icon searcah
                 Image {
                     source: "qrc:img/search"
-                    height: parent.height * 0.5
+                    height: parent.height * 0.4
                     width: height
                     anchors.verticalCenter: parent.verticalCenter
-                    anchors.right: search.left
+//                    anchors.right: search.left
                 }
 
                 // search
