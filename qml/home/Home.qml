@@ -75,7 +75,10 @@ Rectangle {
             color: "#1552F0"
             radius: 10
             Text {
-                text: "Get hired"
+                text: "Get Hired"
+                font{family: "Comfortaa"; pointSize: 12; bold: false}
+                color: "#ffffff"
+                anchors.centerIn: parent
             }
         }
     }
