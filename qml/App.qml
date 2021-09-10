@@ -16,7 +16,7 @@ Item {
         visible: action.home_clicked
     }
 
-
+    // [3] : Linker to get hired
 
 
     // [1] : action menu
