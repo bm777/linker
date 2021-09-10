@@ -25,6 +25,7 @@ Item {
             Text {
                 id: logo
                 text: "Linker"
+                font{family: "Comfortaa"; pointSize: 15; bold: fals}
             }
 
             Rectangle {id: frame_search
