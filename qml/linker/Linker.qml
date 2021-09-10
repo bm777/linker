@@ -11,7 +11,7 @@ Item {
         Rectangle {
             width: parent.width
             height: parent.height * 0.6
-            radius: 20
+            radius: parent.width * 0.1
             y: parent.height * 0.5
         }
 
