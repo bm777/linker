@@ -24,6 +24,8 @@ Rectangle {
             source: img
             width: parent.width * 0.3
             height: width
+            x: parent.width * 02
+            y: x
         }
     }
 }
