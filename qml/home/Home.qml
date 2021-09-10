@@ -71,7 +71,7 @@ Rectangle {
         Rectangle {
             anchors.centerIn: parent
             width: parent.width * 0.8
-            height: 50
+            height: 55
             color: "#1552F0"
             radius: 10
             Text {
