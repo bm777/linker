@@ -197,7 +197,7 @@ Item {
                 text: "Search open opportunities around you!"
                 font{family: "Comfortaa"; pointSize: 12; bold: false}
                 anchors.horizontalCenter: parent.horizontalCenter
-                color: "#646D76"
+                color: "#401552f0"
                 anchors.top: frame_search.bottom
                 anchors.topMargin: 20
                 visible: submit.visible
