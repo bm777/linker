@@ -59,7 +59,7 @@ Rectangle {
             color: "#646D76"
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: welcome.bottom
-            anchors.topMargin: 10
+            anchors.topMargin: 7
         }
     }
     Rectangle {id: hired
