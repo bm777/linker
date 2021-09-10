@@ -21,13 +21,19 @@ Rectangle {
             width: height
         }
 
-        Text {
+        Text {id: label_home
             text: "Home"
             font{family: "Comfortaa"; pointSize: 12; bold: true}
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: home.bottom
             anchors.topMargin: 4
             color: "#1552F0"
+        }
+        MouseArea {
+            anchors.fill: parent
+            onClicked: {
+                label_home.color = "#1552F0"
+            }
         }
     }
 
