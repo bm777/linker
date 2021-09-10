@@ -158,6 +158,7 @@ Item {
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+                            position: "Famrer for weeding for 5 weeks"
                         }
                         Result {
                             width: inter
