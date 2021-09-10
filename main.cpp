@@ -1,7 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QFontDatabase>
-#include <QDebug>
+//#include <QDebug>
 #include <QStringLiteral>
 
 using namespace std;
@@ -11,8 +11,6 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
     int r = QFontDatabase::addApplicationFont(QStringLiteral(":/font/Comfortaa-Regular.ttf"));
-
-    qDebug() << r;
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
