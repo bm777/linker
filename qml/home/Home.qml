@@ -88,6 +88,12 @@ Rectangle {
         anchors.top: hired  .bottom
         border.color: "blue"
         color: "transparent"
+        Text {
+            text: "Get Hired"
+            font{family: "Comfortaa"; pointSize: 14; bold: true}
+            color: "#000000"
+
+        }
     }
 
 }
