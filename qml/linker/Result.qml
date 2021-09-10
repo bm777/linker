@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import QtQuick.Window 2.0
 
 Rectangle {
     id: root
@@ -43,6 +44,12 @@ Rectangle {
                 anchors.centerIn: parent
                 color: "#ffffff"
             }
+            MouseArea {
+                anchors.fill: parent
+                onClicked: {
+
+                }
+            }
         }
 
 
@@ -58,4 +65,5 @@ Rectangle {
             y: circle.y
         }
     }
+
 }
