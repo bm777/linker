@@ -276,6 +276,7 @@ Item {
     }
     Pop {
         id: pop
+        visible: false
         width: parent.width * 0.8
         height: width
         anchors.centerIn: parent
