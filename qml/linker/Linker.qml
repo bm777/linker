@@ -99,7 +99,7 @@ Item {
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width * 0.8
-                height: selector.height -500
+                height: selector.height * 0.5
                 anchors.top: res.bottom
                 border.color: "blue"
             }
