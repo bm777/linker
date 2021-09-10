@@ -24,5 +24,10 @@ Window {
     //timer
     Timer {
         interval: intervalTimeout
+        running: true
+        repeat: false
+        onTriggered: {
+            splash.visible = false
+        }
     }
 }
