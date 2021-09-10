@@ -157,14 +157,5 @@ Rectangle {
     }
 
 
-    Timer {
-            id: motion
-            interval: 500
-            repeat: false
-
-            onTriggered: {
-                console.log("do something")
-            }
-        }
 
 }

@@ -22,5 +22,6 @@
         <file>qml/linker/Search.qml</file>
         <file alias="img/micro">img/micro.png</file>
         <file alias="img/search">img/search.png</file>
+        <file>qml/linker/Result.qml</file>
     </qresource>
 </RCC>
