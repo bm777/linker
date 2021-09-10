@@ -129,7 +129,7 @@ Item {
             property: "y"
             to: 0
             duration: 500
-            easing.type: Easing.InOutQuad
+            easing.type: Easing.OutBackd
         }
         NumberAnimation {
             target: selector
