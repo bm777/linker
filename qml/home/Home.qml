@@ -9,7 +9,10 @@ Rectangle {
         height: parent.height * 0.4
         border.color: "blue"
         color: "transparent"
-
+        Image {
+            id: farmer
+            source: "qrc:img/farmer"
+        }
     }
     Rectangle {id: speech
         width: parent.width
