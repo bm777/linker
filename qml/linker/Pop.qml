@@ -36,8 +36,6 @@ Rectangle {
         anchors.top: lab.bottom
         color: "#1552F0"
         x: lab.x
-        width: parent.width * 0.8
-        height: 100
         wrapMode: Text.WordWrap
     }
 
@@ -47,7 +45,7 @@ Rectangle {
         color: "#1552F0"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: lab_place.bottom
-        anchors.topMargin: 20
+
     }
 
 }
