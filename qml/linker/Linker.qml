@@ -26,7 +26,7 @@ Item {
             Text {
                 id: logo
                 text: "Linker"
-                font{family: "Comfortaa"; pointSize: 18; bold: true}
+                font{family: "Comfortaa"; pointSize: 25; bold: true}
                 x: parent.width/2 - width/2
                 color: "#1552F0"
                 anchors.bottom: frame_search.top
