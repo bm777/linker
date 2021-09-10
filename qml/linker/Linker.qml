@@ -17,6 +17,12 @@ Item {
             Rectangle {
                 width: parent.width * 0.9
                 height: 50
+                horizontalCenter: parent.horizontalCenter
+                x: y
+
+                Search {
+
+                }
             }
         }
 
