@@ -19,6 +19,7 @@ Item {
                 height: 50
                 horizontalCenter: parent.horizontalCenter
                 x: y
+                radius: height/2
 
                 Search {
                     id: search
