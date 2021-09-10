@@ -1,11 +1,18 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QFontDatabase>
+#include <QDebug>
+#include <QStringLiteral>
 
+using namespace std;
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QGuiApplication app(argc, argv);
+    int r = QFontDatabase::addApplicationFont(QStringLiteral("/home/bm7/qt/project/Linker/font/Comfortaa-Regular.tff"));
+
+    qDebug() << r;
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/qml/main.qml"));

@@ -10,6 +10,17 @@ Window {
     property int intervalTimeout: 2500
     property bool shutdown: false
 
+
+
+
+
+    // App
+    App {
+        id: app
+        width: parent.width
+        height: parent.height
+    }
+
     // Splash
     Splash {
         id: splash
@@ -18,8 +29,6 @@ Window {
         height: parent.height
         anchors.horizontalCenter: parent.horizontalCenter
     }
-
-
 
 
 
@@ -42,14 +51,14 @@ Window {
             target: splash
             property: "width"
             duration: 500
-            to: 40
+            to: 0
             easing.type: Easing.InOutQuad
         }
         NumberAnimation {
             target: splash
             property: "height"
             duration: 500
-            to: 40
+            to: 0
             easing.type: Easing.InOutQuad
         }
         NumberAnimation {
@@ -57,7 +66,7 @@ Window {
             property: "radius"
             duration: 500
 //                from: 40
-            to: 50
+            to: splash.height/2
             easing.type: Easing.InOutQuad
         }
         NumberAnimation {
@@ -65,7 +74,7 @@ Window {
             property: "y"
             duration: 500
 //                from: 40
-            to: root.height - 60
+            to: root.height - root.height * 0.08/2
             easing.type: Easing.InOutQuad
         }
     }

@@ -2,5 +2,17 @@
     <qresource prefix="/">
         <file>qml/main.qml</file>
         <file>qml/Splash.qml</file>
+        <file>qml/App.qml</file>
+        <file>qml/home/Home.qml</file>
+        <file>qml/setting/Setting.qml</file>
+        <file>qml/linker/Linker.qml</file>
+        <file>qml/Action.qml</file>
+        <file alias="img/home">img/home.png</file>
+        <file alias="img/ho-dark">img/home-dark.png</file>
+        <file alias="img/link">img/link.png</file>
+        <file alias="img/set">img/setting.png</file>
+        <file alias="img/set-dark">img/setting-dark.png</file>
+        <file alias="img/share">img/share.png</file>
+        <file>font/Comfortaa-Regular.ttf</file>
     </qresource>
 </RCC>
