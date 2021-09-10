@@ -22,6 +22,10 @@ Item {
                 y: frame_search.x
                 color: "#F0F0F0"
             }
+            Text {
+                id: logo
+                text: "Linker"
+            }
 
             Rectangle {id: frame_search
                 width: parent.width * 0.9
