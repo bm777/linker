@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import QtGraphicalEffects 1.0
-import QtQuick.Controls 2.0
+import QtQuick.Controls 2.5
 
 Item {
     id: linker
@@ -124,6 +124,7 @@ Item {
                     height: parent.height
                     contentHeight: col.height
                     contentWidth: col.width
+                    spacing: 5
 
                     Column {
                         id: col
