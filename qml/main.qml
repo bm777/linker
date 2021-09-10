@@ -28,13 +28,13 @@ Window {
         running: true
         repeat: false
         onTriggered: {
-            shutdown = true
+            effect.running = true
         }
     }
 
     ParallelAnimation {
         running: shutdown
-
+        id: effect
 
         NumberAnimation {
             target: splash
