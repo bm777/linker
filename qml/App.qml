@@ -1,5 +1,6 @@
 import QtQuick 2.0
 import QtGraphicalEffects 1.12
+import "home"
 
 Item {
     id: root
@@ -23,6 +24,8 @@ Item {
 
 
     // [2] : Home place
+    Home {
 
+    }
 
 }
