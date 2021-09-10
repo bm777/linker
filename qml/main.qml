@@ -8,9 +8,5 @@ Window {
     height: Screen.height
     title: qsTr("Linker")
 
-    Text {
-        id: content
-        text: "width : " + root.width + ", height : "+root.height
-        anchors.centerIn: parent
-    }
+
 }
