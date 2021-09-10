@@ -26,6 +26,8 @@ Item {
     // [2] : Home place
     Home {
         id: home
+        width: parent.width
+        height: parent.height - action.width
     }
 
 }
