@@ -14,7 +14,7 @@
         <file alias="img/set-dark">img/setting-dark.png</file>
         <file alias="img/share">img/share.png</file>
         <file>font/Comfortaa-Regular.ttf</file>
-        <file>img/boss.png</file>
-        <file>img/farmer.png</file>
+        <file alias="img/boss">img/boss.png</file>
+        <file alias="img/farmer">img/farmer.png</file>
     </qresource>
 </RCC>
