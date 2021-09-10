@@ -17,7 +17,7 @@ Item {
             Rectangle {
                 width: parent.width * 0.9
                 height: 50
-                parent.horizontalCenter: parent.horizontalCenter
+                anchors.horizontalCenter: parent.horizontalCenter
                 x: y
                 radius: height/2
 
