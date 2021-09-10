@@ -112,8 +112,8 @@ Item {
     /// SequentialAnimation
     SequentialAnimation {
         running: {
-            if(selector.y === 0) return true
-            else return false
+            if(selector.y === 0) return false
+            else return true
         }
 
         NumberAnimation {
