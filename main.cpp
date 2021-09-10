@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QGuiApplication app(argc, argv);
-    int r = QFontDatabase::addApplicationFont(QStringLiteral("/home/bm7/qt/project/Linker/font/Comfortaa-Regular.ttf"));
+    int r = QFontDatabase::addApplicationFont(QStringLiteral(":/font/Comfortaa-Regular.ttf"));
 
     qDebug() << r;
 
