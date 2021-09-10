@@ -4,6 +4,7 @@ Rectangle {
     id: root
 //    radius: height /2
     height: 50
+    color: "#EDF8FF"
     Rectangle {
         anchors.centerIn: parent
         width: parent.width
