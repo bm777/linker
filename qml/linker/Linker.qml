@@ -112,7 +112,7 @@ Item {
             }
             Rectangle {
                 id: backend
-                visible: !result.visible
+                visible: !submit.visible
                 anchors.centerIn: parent
                 width: parent.width * 1
                 height: selector.height - res.y - res.height - 5 // 5 is for separator
