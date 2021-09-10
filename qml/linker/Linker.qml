@@ -107,7 +107,7 @@ Item {
                 layer.enabled: true
                 layer.effect: DropShadow {
                     transparentBorder: true
-                    horizontalOffset: 8
+                    horizontalOffset: 0
                     verticalOffset: 8
                     color: "#40000000"
                 }
