@@ -9,6 +9,7 @@ Rectangle {
         height: parent.height * 0.4
         border.color: "blue"
         color: "transparent"
+
     }
     Rectangle {id: speech
         width: parent.width
