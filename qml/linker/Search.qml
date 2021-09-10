@@ -8,7 +8,7 @@ TextField {
     hoverEnabled: true
     font{family: "Comfortaa"; pointSize: 11}
     background: Rectangle {
-
+        color: "transparent"
     }
 
 }
