@@ -6,7 +6,7 @@ Rectangle {
 //    radius: height /2
     height: 70
     color: "#D4EDFF"
-    property string position: "How to plant a rice during a wrong period"
+    property string p: "How to plant a rice during a wrong period"
     property bool clicked: false
 //    radius: height/2
     Rectangle {
@@ -51,7 +51,7 @@ Rectangle {
 
         // Text
         Text {
-            text: position
+            text: p
             font{family: "Comfortaa"; pointSize: 12}
             width: parent.width * 0.65
             height: parent.height * 0.5
