@@ -9,27 +9,8 @@ Rectangle {
         height: parent.height * 0.4
         border.color: "blue"
         color: "transparent"
-        Image {
-            id: farmer
-            source: "qrc:img/farmer"
-            y: link.y - height/2
-            anchors.right: link.left
-            width: 50
-            height: width
-        }
-        Image {
-            id: link
-            source: "qrc:img/link"
-            x: parent.width/2 - width/2
-            y: parent.height/2 - height/2
-
-        }
-        Image {
-            id: boss
-            source: "qrc:img/boss"
-            y: link.y + height
-            anchors.left: link.right
-            width: 50
+        Rectangle {
+            width: parent.width * 0.5
             height: width
         }
     }
