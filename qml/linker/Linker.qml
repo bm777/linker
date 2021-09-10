@@ -234,6 +234,7 @@ Item {
                     anchors.fill: parent
                     onClicked: {
                         up.running = true
+                        load.running = true
                     }
                 }
             }
