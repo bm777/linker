@@ -88,14 +88,15 @@ Rectangle {
         anchors.top: hired  .bottom
 //        border.color: "blue"
         color: "transparent"
-        Text {
+        Text {id: label_org
             text: "Top organisations"
             font{family: "Comfortaa"; pointSize: 14; bold: false}
             color: "#000000"
             x: root.width * 0.1
         }
         Organisation {
-            height: parent.height * 0.8
+            anchors.top: label_org.bottom
+            height: parent.height * 0.6
             width: height
         }
     }
