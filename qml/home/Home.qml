@@ -54,7 +54,7 @@ Rectangle {
         }
         Text {
             id: desc
-            text: "Welcome to Linker!"
+            text: "Get hired for your first time"
             font{family: "Comfortaa"; pointSize: 14; bold: true}
             anchors.centerIn: parent
             color: "#000000"
