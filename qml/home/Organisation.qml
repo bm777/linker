@@ -50,10 +50,10 @@ Rectangle {
         Text {
             text: "total hired last month"
             font{family: "Comfortaa"; pointSize: 9; bold: false}
-            color: "#3ba55d"
+            color: "#646D76"
             anchors.top: v.bottom
             anchors.topMargin: parent.height * 0.05
-            x: v.x
+            x: parent.width * 0.1
         }
     }
 }
