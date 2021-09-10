@@ -111,7 +111,7 @@ Item {
             Rectangle {id: result
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width * 0.9
+                width: parent.width * 1
                 height: selector.height - res.y - res.height - 5 // 5 is for separator
                 anchors.top: res.bottom
                 anchors.topMargin: 5
