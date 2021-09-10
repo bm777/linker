@@ -117,7 +117,7 @@ Item {
                 anchors.topMargin: 5
                 color: "#EDF8FF"
 //                border.color: "blue"
-                Flickable {
+                ScrollView {
                     clip: true
                     width: parent.width
                     height: parent.height
