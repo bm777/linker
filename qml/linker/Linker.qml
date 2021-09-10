@@ -88,7 +88,7 @@ Item {
             property: "y"
             to: root.height * 0.5
             duration: 400
-            easing.type: Easing.InOutBounce
+            easing.type: Easing.OutBounce
         }
     }
 }
