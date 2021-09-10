@@ -15,10 +15,12 @@ Item {
     Rectangle {id: hired
         width: parent.width
         height: parent.height * 0.25
+        anchors.top: speech.bottom
     }
     Rectangle {id: org
         width: parent.width
         height: parent.height * 0.25
+        anchors.top: hired  .bottom
     }
 
 }
