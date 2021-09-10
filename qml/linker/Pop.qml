@@ -41,7 +41,7 @@ Rectangle {
 
     Rectangle {
         width: parent.width * 0.7
-        height: parent.height * 0.2
+        height: parent.height * 0.15
         color: "#1552F0"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: lab_place.bottom
