@@ -46,6 +46,9 @@ Rectangle {
         anchors.horizontalCenter: parent.horizontalCenter
         y: parent.height - height * 1.5
         radius: height * 0.2
+        Text {
+            text: "Go Forward"
+        }
     }
 
 }
