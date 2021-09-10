@@ -21,6 +21,8 @@ Item {
     Linker {
         id: linker
         visible: action.linker_clicked
+        width: parent.width
+        height: parent.height - action.height
     }
 
     // [1] : action menu
