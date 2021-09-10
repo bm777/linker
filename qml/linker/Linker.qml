@@ -180,7 +180,7 @@ Item {
             property: "y"
             to: 0
             duration: 500
-            easing.type: Easing.OutBackd
+            easing.type: Easing.OutBack
         }
         NumberAnimation {
             target: selector
