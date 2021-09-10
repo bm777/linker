@@ -17,4 +17,6 @@ Item {
         anchors.centerIn: parent
         color: "#ffffff"
     }
+
+    onWidthChanged: label.visible = false
 }
