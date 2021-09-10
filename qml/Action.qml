@@ -58,10 +58,10 @@ Rectangle {
         MouseArea {
             anchors.fill: parent
             onClicked: {
-                label_home.color = "#1552F0"
+                label_home.color = "#5E7B94"
                 label_setting.color = "#5E7B94"
-                home_clicked = true
-                linker_clicked = false
+                home_clicked = false
+                linker_clicked = true
                 setting_clicked = false
             }
         }
