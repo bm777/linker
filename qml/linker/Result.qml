@@ -24,6 +24,7 @@ Rectangle {
                 height: parent.height * 0.2
                 width: height
                 color: "#1552f0"
+                anchors.centerIn: parent
             }
         }
     }
