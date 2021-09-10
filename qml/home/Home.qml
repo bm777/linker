@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import QtQuick.Controls 2.15
 
 Rectangle {
     id: root
@@ -94,11 +95,11 @@ Rectangle {
             color: "#000000"
             x: root.width * 0.1
         }
-        Organisation {
-            y: parent.height - label_org.height - height
-            x: root.width * 0.1
-            height: parent.height * 0.7
-            width: height
+        Rectangle {
+            id: frame
+            width: parent.width * 0.9
+            height: parent.height * 0.9
+            border.color: "red"
         }
     }
 
