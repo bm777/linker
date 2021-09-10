@@ -45,7 +45,7 @@ Rectangle {
                 anchors.centerIn: parent
                 color: "#ffffff"
             }
-            MouseArea {anchors.fill: parent; onClicked:1 }
+//            MouseArea {anchors.fill: parent; onClicked:1 }
         }
 
 
