@@ -127,7 +127,7 @@ Item {
                     Column {
                         id: col
                         Result {
-                            width: selector.width * 0.9
+                            width: selector.width * 0.95
                         }
                     }
                 }
