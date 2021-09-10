@@ -86,8 +86,8 @@ Item {
         NumberAnimation {
             target: selector
             property: "y"
-            to: 5
-            duration: 200
+            to: root.height * 0.5
+            duration: 700
             easing.type: Easing.InOutQuad
         }
     }
