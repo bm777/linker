@@ -10,5 +10,6 @@ TextField {
     background: Rectangle {
         color: "transparent"
     }
+    verticalAlignment: Text.verticalAlignment
 
 }
