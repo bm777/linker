@@ -5,6 +5,25 @@ import "home"
 Item {
     id: root
 
+
+
+
+    // [2] : Home place
+    Rectangle {
+        width: 100
+        height: width
+        border.color: "blue"
+    }
+
+    Home {
+        id: home
+        width: parent.width
+        height: parent.height - action.width
+    }
+
+
+
+
     // [1] : action menu
     Action {
         id: action
@@ -20,20 +39,6 @@ Item {
         samples: 5
         color: "#20000000"
         source: action
-    }
-
-
-    // [2] : Home place
-    Rectangle {
-        width: 100
-        height: width
-        border.color: "blue"
-    }
-
-    Home {
-        id: home
-        width: parent.width
-        height: parent.height - action.width
     }
 
 }
