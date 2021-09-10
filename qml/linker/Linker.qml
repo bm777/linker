@@ -104,13 +104,7 @@ Item {
                 anchors.top: res.bottom
                 height: 1
 //                border.color: "blue"
-                layer.enabled: true
-                layer.effect: DropShadow {
-                    transparentBorder: true
-                    horizontalOffset: 0
-                    verticalOffset: 8
-                    color: "#40000000"
-                }
+
             }
 
             Rectangle {id: result
