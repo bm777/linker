@@ -149,7 +149,7 @@ Item {
                         Result {
                             width: inter
                             x: (selector.width - width)/2
-                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; pop.p=p} }
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; pop.p=parent.p} }
                         }
                         Result {
                             width: inter
