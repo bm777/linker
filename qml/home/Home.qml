@@ -90,7 +90,7 @@ Rectangle {
         color: "transparent"
         Text {
             text: "Top organisations"
-            font{family: "Comfortaa"; pointSize: 14; bold: true}
+            font{family: "Comfortaa"; pointSize: 14; bold: false}
             color: "#000000"
             x: root.width * 0.1
         }
