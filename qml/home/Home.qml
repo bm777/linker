@@ -48,7 +48,7 @@ Rectangle {
             text: "Welcome to Linker!"
             font{family: "Comfortaa"; pointSize: 14; bold: true}
             anchors.centerIn: parent
-            color: "#ffffff"
+            color: "#000000"
         }
     }
     Rectangle {id: hired
