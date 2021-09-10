@@ -19,7 +19,7 @@ Rectangle {
         }
     }
 
-    Text {
+    Text {id: lab
         text: position
         font{family: "Comfortaa"; pointSize: 17}
         anchors.horizontalCenter: parent.horizontalCenter
@@ -31,8 +31,8 @@ Rectangle {
     Text {
         text: place
         font{family: "Comfortaa"; pointSize: 17}
-        anchors.horizontalCenter: parent.horizontalCenter
-        y: parent.height * 0.2
+        anchors.top: lab.bottom
+
         width: parent.width * 0.8
         height: 100
         wrapMode: Text.WordWrap
