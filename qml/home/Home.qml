@@ -40,7 +40,7 @@ Rectangle {
         width: parent.width
         height: parent.height * 0.15
         anchors.top: logomark.bottom
-        border.color: "blue"
+//        border.color: "blue"
         color: "transparent"
 
         Text {
@@ -66,7 +66,7 @@ Rectangle {
         width: parent.width
         height: parent.height * 0.2
         anchors.top: speech.bottom
-//        border.color: "blue"
+        border.color: "blue"
         color: "transparent"
     }
     Rectangle {id: org
