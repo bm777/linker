@@ -3,7 +3,7 @@ import QtGraphicalEffects 1.0
 
 Rectangle {
     id: root
-    border.color: "red"
+//    border.color: "red"
 
     RectangularGlow {
         anchors.fill: child
