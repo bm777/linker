@@ -139,8 +139,8 @@ Item {
             easing.type: Easing.InOutQuad
         }
         PropertyAnimation {
-            target: selector
-            property: "y"
+            target: submit
+            property: "visible"
             to: false
             duration: 500
             easing.type: Easing.InOutQuad
