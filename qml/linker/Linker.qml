@@ -35,7 +35,8 @@ Item {
             Rectangle {id: frame_search
                 width: parent.width * 0.9
                 height: 50
-                anchors.horizontalCenter: parent.horizontalCenter
+                x: parent.width/2-width/2
+//                anchors.horizontalCenter: parent.horizontalCenter
                 y: parent.height * 0.18
                 radius: height/2
                 color: "#10b6b6b6"
@@ -65,6 +66,24 @@ Item {
                     anchors.left: search.right
                 }
             }
+            //// go button
+            Rectangle {
+                visible: !submit.visible
+                height: frame_search.height * 0.8
+                width: (selector.width - frame_search.width)/2
+                color: "#1552f0"
+                radius: height/2
+                anchors.left: frame_search.right
+                anchors.leftMargin: 10
+                anchors.verticalCenter: frame_search.verticalCenter
+                Text {
+                    text: "GO"
+                    font{family: "Comfortaa"; pointSize: 10; bold: true}
+                    anchors.centerIn: parent
+                    color: "#ffffff"
+                }
+            }
+            /////
 
             Text {
                 id: desc
@@ -105,6 +124,8 @@ Item {
 
     ////////////////////////////////////////////////////////////////////////////////////
 
+
+
     ////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -134,6 +155,20 @@ Item {
             target: selector
             property: "radius"
             to: 0
+            duration: 500
+            easing.type: Easing.InOutQuad
+        }
+        NumberAnimation {
+            target: frame_search
+            property: "width"
+            to: root.width * 0.7
+            duration: 500
+            easing.type: Easing.InOutQuad
+        }
+        NumberAnimation {
+            target: frame_search
+            property: "x"
+            to: selector.width * 0.05
             duration: 500
             easing.type: Easing.InOutQuad
         }

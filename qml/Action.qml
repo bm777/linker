@@ -43,7 +43,7 @@ Rectangle {
 
     Rectangle {
         id: frame_linker
-        height: parent.height * 0.85
+        height: parent.height * 0.7
         width: height
         color: "#1552F0"
         radius: height/2
