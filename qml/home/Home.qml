@@ -136,7 +136,7 @@ Rectangle {
 
     Timer {
             id: motion
-            interval: 200
+            interval: 500
             repeat: false
 
             onTriggered: {
