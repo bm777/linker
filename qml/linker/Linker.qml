@@ -18,7 +18,7 @@ Item {
                 width: parent.width * 0.9
                 height: 50
                 anchors.horizontalCenter: parent.horizontalCenter
-                x: y
+                y: x
                 radius: height/2
                 color: "#10b6b6b6"
 
