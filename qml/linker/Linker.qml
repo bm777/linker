@@ -100,6 +100,7 @@ Item {
                 width: parent.width * 0.8
                 height: root.height - frame_search.height
                 anchors.top: res.bottom
+                border.color: "blue"
             }
 
 
