@@ -16,10 +16,12 @@ Rectangle {
         Image {
             id: share
             source: "qrc:img/share"
+            x: parent.width/2 - width/2
+            y: parent.height/2 - height/2
         }
         Image {
-            id: farmer
-            source: "qrc:img/farmer"
+            id: boss
+            source: "qrc:img/boss"
         }
     }
     Rectangle {id: speech
