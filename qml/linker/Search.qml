@@ -11,6 +11,6 @@ TextField {
         color: "transparent"
         border.color: "black"
     }
-    verticalAlignment: Text.verticalAlignment
+    verticalAlignment: TextInput.AlignVCenter
 
 }
