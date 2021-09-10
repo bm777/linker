@@ -117,7 +117,6 @@ Rectangle {
                     Organisation {id: c
                         height: org.height * 0.7
                         width: height
-                        onXChanged: motion.restart()
                     }
                     Organisation {
                         height: org.height * 0.7
