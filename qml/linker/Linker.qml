@@ -84,7 +84,7 @@ Item {
         running: linker.visible
 
         NumberAnimation {
-            target: linker
+            target: root
             property: "y"
             to: 5
             duration: 200
