@@ -39,7 +39,7 @@ Rectangle {
             anchors.verticalCenter: logo.verticalCenter
         }
 
-        Text {
+        Text {id: v
             text: "+"+value
             font{family: "Comfortaa"; pointSize: 30; bold: false}
             color: "#3ba55d"
@@ -51,7 +51,7 @@ Rectangle {
             text: "total hired last month"
             font{family: "Comfortaa"; pointSize: 9; bold: false}
             color: "#3ba55d"
-            anchors.top: logo.bottom
+            anchors.top: v.bottom
             anchors.topMargin: parent.height * 0.15
             anchors.horizontalCenter: parent.horizontalCenter
         }
