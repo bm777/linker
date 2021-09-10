@@ -131,5 +131,12 @@ Item {
             duration: 500
             easing.type: Easing.InOutQuad
         }
+        NumberAnimation {
+            target: selector
+            property: "radius"
+            to: 0
+            duration: 500
+            easing.type: Easing.InOutQuad
+        }
     }
 }
