@@ -103,7 +103,7 @@ Item {
                 width: root.width
                 anchors.top: res.bottom
                 height: 1
-//                border.color: "blue"
+                color: "#80b6b6b6"
 
             }
 
