@@ -36,7 +36,7 @@ Item {
                 width: parent.width * 0.9
                 height: 50
                 anchors.horizontalCenter: parent.horizontalCenter
-                y: parent.height * 0.3
+                y: root.height //parent.height * 0.3
                 radius: height/2
                 color: "#10b6b6b6"
                 // icon searcah
