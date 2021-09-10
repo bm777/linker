@@ -50,7 +50,7 @@ Rectangle {
         Text {
             text: position
             font{family: "Comfortaa"; pointSize: 12}
-            width: parent.width * 0.7
+            width: parent.width * 0.65
             height: parent.height * 0.5
             wrapMode: Text.WordWrap
             anchors.left: circle.right
