@@ -13,6 +13,7 @@ Rectangle {
             id: farmer
             source: "qrc:img/farmer"
             y: link.y - height/2
+            anchors.right: link.left
         }
         Image {
             id: link
