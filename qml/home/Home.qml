@@ -102,7 +102,11 @@ Rectangle {
             x: root.width * 0.1
             y: label_org.height
             color: "transparent"
-
+            ScrollView {
+                clip: true
+                width: parent.width
+                height: parent.height
+            }
 
         }
     }
