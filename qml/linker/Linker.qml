@@ -149,6 +149,7 @@ Item {
                         Result {
                             width: inter
                             x: (selector.width - width)/2
+
                         }
                         Result {
                             width: inter
