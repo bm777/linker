@@ -27,6 +27,7 @@ Item {
                 text: "Linker"
                 font{family: "Comfortaa"; pointSize: 15; bold: true}
                 anchors.horizontalCenter: parent.horizontalCenter
+                color: "#1552F0"
             }
 
             Rectangle {id: frame_search
