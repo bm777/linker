@@ -22,7 +22,7 @@ Rectangle {
 
         Image {
             source: img
-            width: parent.width * 0.3
+            width: parent.width * 0.25
             height: width
             x: parent.width * 0.1
             y: x
