@@ -103,6 +103,7 @@ Item {
                 width: parent.width
                 anchors.top: res.bottom
                 height: 1
+                border.color: "blue"
             }
 
             Rectangle {id: result
