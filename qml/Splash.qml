@@ -12,7 +12,7 @@ Item {
     // content text
     Text {
         id: label
-        text: "Linker"
+        text: "L i n k e r"
         font{family: "Comfortaa"; pointSize: 24; bold: true}
         anchors.centerIn: parent
         color: "#ffffff"
