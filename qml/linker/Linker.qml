@@ -112,11 +112,11 @@ Item {
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width * 0.9
-                height: selector.height - res.y - res.height - 5
+                height: selector.height - res.y - res.height - 5 // 5 is for separator topMargin
                 anchors.top: res.bottom
                 anchors.topMargin: 5
                 color: "transparent"
-                border.color: "blue"
+//                border.color: "blue"
             }
 
 
