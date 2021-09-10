@@ -13,7 +13,7 @@ Item {
     Text {
         id: label
         text: "Linker"
-        font{family: "Comfortaa"; pointSize: 17}
+        font{family: "Comfortaa"; pointSize: 24; bold: true}
         anchors.centerIn: parent
         color: "#ffffff"
     }
