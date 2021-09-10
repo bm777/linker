@@ -96,7 +96,7 @@ Rectangle {
         }
         Organisation {
             anchors.top: label_org.bottom
-            height: parent.height * 0.6
+            height: parent.height * 0.7
             width: height
         }
     }
