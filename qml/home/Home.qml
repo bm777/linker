@@ -8,7 +8,7 @@ Rectangle {
     Rectangle {id: logomark
         width: parent.width
         height: parent.height * 0.4
-        border.color: "blue"
+//        border.color: "blue"
         color: "transparent"
         Rectangle {id: mover
             width: parent.width * 0.4
@@ -40,7 +40,7 @@ Rectangle {
         width: parent.width
         height: parent.height * 0.15
         anchors.top: logomark.bottom
-//        border.color: "blue"
+        border.color: "blue"
         color: "transparent"
 
         Text {
@@ -59,7 +59,8 @@ Rectangle {
             anchors.centerIn: parent
             color: "#646D76"
             anchors.horizontalCenter: parent.horizontalCenter
-            y: parent.height * 0.3
+            anchors.top: welcome.bottom
+            anchors.topMargin: 10
         }
     }
     Rectangle {id: hired
