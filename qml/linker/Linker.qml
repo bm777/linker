@@ -24,7 +24,7 @@ Item {
 
                 Search {
                     id: search
-                    width: parent.width
+                    width: parent.width * 0.9
                     height: parent.height
                 }
             }
