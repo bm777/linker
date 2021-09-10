@@ -99,7 +99,7 @@ Item {
 
             Rectangle {
                 visible: !submit.visible
-                anchors.horizontalCenter: parent.horizontalCenter
+                x: 0
                 width: root.width
                 anchors.top: res.bottom
                 height: 2
