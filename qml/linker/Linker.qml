@@ -268,12 +268,13 @@ Item {
         height: root.height
         visible: pop.visible
         color: "red"
-        Pop {
-            id: pop
-            width: parent.width * 0.8
-            height: width
-            anchors.centerIn: parent
-        }
+
+    }
+    Pop {
+        id: pop
+        width: parent.width * 0.8
+        height: width
+        anchors.centerIn: parent
     }
 
     Timer {
