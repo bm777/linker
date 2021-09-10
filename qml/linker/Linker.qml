@@ -117,7 +117,18 @@ Item {
                 anchors.topMargin: 5
                 color: "transparent"
 //                border.color: "blue"
+                Flickable {
+                    clip: true
+                    width: parent.width
+                    height: parent.height
+                    contentHeight: col.height
+                    contentWidth: col.width
 
+                    Column {
+                        id: col
+
+                    }
+                }
 
             }
 
