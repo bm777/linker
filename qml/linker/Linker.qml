@@ -9,6 +9,7 @@ Item {
         width: parent.width
         height: parent.height
         color: "#EDF8FF"
+        property real inter: selector.width * 0.98
         ////////////////////////////////////////////////////////////////////////////
         Rectangle {id: selector
             width: parent.width
@@ -125,7 +126,7 @@ Item {
                     contentHeight: col.height
                     contentWidth: col.width
                     spacing: 5
-                    property real inter: selector.width * 0.98
+
                     Column {
                         id: col
                         Result {
