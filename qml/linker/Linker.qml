@@ -123,7 +123,7 @@ Item {
 
                     source: "qrc:img/inf"
                     anchors.horizontalCenter: parent.horizontalCenter
-                    y: parent.height * 0.4
+                    y: parent.height * 0.1
                 }
             }
 
