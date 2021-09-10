@@ -60,7 +60,7 @@ Rectangle {
 
         Text {
             text: "Setting"
-            font{family: "Comfortaa"; pointSize: 15; bold: true}
+            font{family: "Comfortaa"; pointSize: 12; bold: true}
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: setting.bottom
             anchors.topMargin: 4
