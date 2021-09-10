@@ -37,6 +37,15 @@ Item {
                     height: parent.height
                     anchors.centerIn: parent
                 }
+
+                // micro
+                Image {
+                    source: "qrc:img/micro"
+                    height: parent.height * 0.4
+                    width: height
+                    anchors.verticalCenter: parent.verticalCenter
+                    anchors.left: search.right
+                }
             }
         }
 
