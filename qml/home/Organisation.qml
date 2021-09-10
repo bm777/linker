@@ -4,6 +4,7 @@ import QtGraphicalEffects 1.0
 Rectangle {
     id: root
 //    border.color: "red"
+    property string img: "qrc:img/e1"
 
     RectangularGlow {
         anchors.fill: child
@@ -20,7 +21,7 @@ Rectangle {
         anchors.centerIn: parent
 
         Image {
-            source: "qrc:img/e1"
+            source: img
         }
     }
 }
