@@ -122,6 +122,8 @@ Item {
                 Image {
 
                     source: "qrc:img/inf"
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    y: parent.height * 0.4
                 }
             }
 
