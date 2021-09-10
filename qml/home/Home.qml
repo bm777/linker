@@ -73,7 +73,7 @@ Rectangle {
             width: parent.width * 0.8
             height: 55
             color: "#1552F0"
-            radius: 10
+            radius: 7
             Text {
                 text: "Get Hired"
                 font{family: "Comfortaa"; pointSize: 14; bold: true}
