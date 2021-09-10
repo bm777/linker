@@ -108,6 +108,7 @@ Rectangle {
                 height: parent.height
                 contentWidth: row.width
                 contentHeight: row.height
+                y: parent.height - label_org.height - height
                 spacing: 5
 
                 Row {
