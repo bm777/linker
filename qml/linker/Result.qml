@@ -5,6 +5,7 @@ Rectangle {
 //    radius: height /2
     height: 70
     color: "#EDF8FF"
+    radius: height/2
     Rectangle {
         anchors.centerIn: parent
         width: parent.width
