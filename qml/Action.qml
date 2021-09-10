@@ -33,6 +33,9 @@ Rectangle {
             anchors.fill: parent
             onClicked: {
                 label_home.color = "#1552F0"
+                home_clicked = true
+                linker_clicked = false
+                frame_setting = false
             }
         }
     }
