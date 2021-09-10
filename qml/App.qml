@@ -2,7 +2,7 @@ import QtQuick 2.0
 import QtGraphicalEffects 1.12
 import "home"
 
-Rectangle {
+Item {
     id: root
 
 
