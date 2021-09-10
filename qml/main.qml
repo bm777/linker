@@ -53,6 +53,13 @@ Window {
                 to: 40
                 easing.type: Easing.InOutQuad
             }
+            NumberAnimation {
+                target: splash
+                property: "radius"
+                duration: 500
+                to: height/2
+                easing.type: Easing.InOutQuad
+            }
         }
 
     }
