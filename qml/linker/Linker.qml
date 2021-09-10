@@ -74,9 +74,11 @@ Item {
                 color: "#646D76"
                 anchors.top: frame_search.bottom
                 anchors.topMargin: 20
+                visible: submit.visible
             }
 
             Rectangle {
+                id: submit
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width * 0.5
                 height: 50
