@@ -10,6 +10,6 @@ Rectangle {
         anchors.centerIn: parent
         width: parent.width
         height: parent.height * 0.9
-        radius: height/2
+        radius: 5
     }
 }
