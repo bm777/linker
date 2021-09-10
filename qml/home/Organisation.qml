@@ -32,7 +32,7 @@ Rectangle {
         }
         Text {
             text: company
-            font{family: "Comfortaa"; pointSize: 10; bold: false}
+            font{family: "Comfortaa"; pointSize: 12; bold: false}
             color: "#000000"
             anchors.left: logo.right
             anchors.leftMargin: 5
