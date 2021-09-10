@@ -58,7 +58,7 @@ Window {
                 property: "radius"
                 duration: 500
                 from: 40
-                to: splash.height/2
+                to: 50
                 easing.type: Easing.InOutQuad
             }
         }
