@@ -231,7 +231,14 @@ Item {
         }
     }
 
-
+    Timer {
+        id: load
+        interval: 1500
+        repeat: false
+        onTriggered: {
+            result.visible = true
+        }
+    }
 
 
     /// SequentialAnimation
