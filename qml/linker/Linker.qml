@@ -81,9 +81,9 @@ Item {
                 width: parent.width * 0.5
                 height: 50
                 color: "#1552F0"
-                radius: height/2
+                radius: 5
                 anchors.top: desc.bottom
-                anchors.topMargin: 10
+                anchors.topMargin: 40
 
                 Text {
                     text: "Go"
