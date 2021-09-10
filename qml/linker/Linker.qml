@@ -267,6 +267,7 @@ Item {
         width: parent.width
         height: root.height
         visible: pop.visible
+        color: "red"
         Pop {
             id: pop
             width: parent.width * 0.8
