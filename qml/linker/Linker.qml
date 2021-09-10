@@ -114,6 +114,7 @@ Item {
                 width: parent.width * 0.9
                 height: selector.height - res.y - res.height
                 anchors.top: res.bottom
+                anchors.topMargin: 5
                 color: "transparent"
                 border.color: "blue"
             }
