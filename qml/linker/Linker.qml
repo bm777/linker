@@ -75,6 +75,14 @@ Item {
                 anchors.top: frame_search.bottom
                 anchors.topMargin: 20
             }
+
+            Rectangle {
+                anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width * 0.5
+                height: 50
+                color: "#1552F0"
+                radius: height/2
+            }
         }
     }
 
