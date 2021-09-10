@@ -20,5 +20,7 @@
         <file alias="img/e2">img/e2.jpg</file>
         <file alias="img/e3">img/e3.png</file>
         <file>qml/linker/Search.qml</file>
+        <file>img/micro.png</file>
+        <file>img/search.png</file>
     </qresource>
 </RCC>
