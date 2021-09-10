@@ -2,6 +2,7 @@ import QtQuick 2.0
 
 Rectangle {
     id: root
+    color: "#1552F0"
     Behavior on width {
         NumberAnimation {
             target: root
@@ -13,10 +14,6 @@ Rectangle {
         }
     }
 
-    Rectangle {
-        anchors.fill: parent
-        color: "#1552F0"
-    }
 
     // content text
     Text {
