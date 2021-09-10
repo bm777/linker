@@ -87,7 +87,7 @@ Item {
             target: selector
             property: "y"
             to: root.height * 0.5
-            duration: 400
+            duration: 700
             easing.type: Easing.OutBounce
         }
     }
