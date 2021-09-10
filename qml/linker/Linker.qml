@@ -87,7 +87,7 @@ Item {
 
                 Text {
                     text: "Go"
-                    font{family: "Comfortaa"; pointSize: 20}
+                    font{family: "Comfortaa"; pointSize: 17}
                     anchors.centerIn: parent
                     color: "#ffffff"
                 }
