@@ -87,6 +87,9 @@ Item {
 
                 Text {
                     text: "Go"
+                    font{family: "Comfortaa"; pointSize: 20}
+                    anchors.centerIn: parent
+                    color: "#ffffff"
                 }
             }
         }
