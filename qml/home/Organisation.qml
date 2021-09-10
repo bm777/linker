@@ -41,7 +41,7 @@ Rectangle {
 
         Text {id: v
             text: "+"+value
-            font{family: "Comfortaa"; pointSize: 30; bold: false}
+            font{family: "Comfortaa"; pointSize: 35; bold: false}
             color: "#3ba55d"
             anchors.top: logo.bottom
             anchors.topMargin: parent.height * 0.15
