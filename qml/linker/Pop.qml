@@ -9,5 +9,6 @@ Rectangle {
         text: position
         font{family: "Comfortaa"; pointSize: 17}
         anchors.centerIn: parent
+        wrapMode: Text.WordWrap
     }
 }
