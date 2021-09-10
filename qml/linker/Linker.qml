@@ -155,13 +155,13 @@ Item {
                             width: inter
                             x: (selector.width - width)/2
                             p: "Famrer for planting rice for 3 weeks"
-                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; pop.p=p} }
                         }
                         Result {
                             width: inter
                             x: (selector.width - width)/2
                             p: "Famrer for weeding for 5 weeks"
-                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; p=p} }
+                            MouseArea {anchors.fill: parent; onClicked: {pop.visible=true; pop.p=p} }
                         }
                         Result {
                             width: inter
