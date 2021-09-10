@@ -49,7 +49,7 @@ Rectangle {
         // Text
         Text {
             text: position
-            font{family: "Comfortaa"; pointSize: 14}
+            font{family: "Comfortaa"; pointSize: 12}
             width: parent.width * 0.7
             height: parent.height * 0.5
             wrapMode: Text.WordWrap
