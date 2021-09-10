@@ -12,7 +12,7 @@ Item {
     Home {
         id: home
         width: parent.width
-        height: parent.height - action.width
+        height: parent.height - action.height
 
     }
 
