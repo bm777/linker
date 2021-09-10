@@ -44,7 +44,7 @@ Rectangle {
             font{family: "Comfortaa"; pointSize: 30; bold: false}
             color: "#646D76"
             anchors.top: logo.bottom
-            anchors.topMargin: parent.height * 0.2
+            anchors.topMargin: parent.height * 0.15
             anchors.horizontalCenter: parent.horizontalCenter
         }
     }
