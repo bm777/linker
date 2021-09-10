@@ -95,6 +95,12 @@ Item {
                 anchors.top: frame_search.bottom
                 anchors.topMargin: 10
             }
+            Rectangle {
+                anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width * 0.8
+                height: root.height - frame_search.height
+                anchors.top: res.bottom
+            }
 
 
             ////////////////////////////////////////////////////////////////////////////////////
