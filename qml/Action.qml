@@ -15,7 +15,7 @@ Rectangle {
         anchors.verticalCenter: parent.verticalCenter
 
         Image {id: home
-            source: "qrc:img/home"
+            source: home_clicked ? "qrc:img/home" : "qrc:img/home-b"
             anchors.horizontalCenter: parent.horizontalCenter
             height: parent.height * 0.5
             width: height
