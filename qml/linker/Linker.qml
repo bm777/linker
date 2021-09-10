@@ -33,7 +33,7 @@ Item {
                 // search
                 Search {
                     id: search
-                    width: parent.width * 0.9
+                    width: parent.width * 0.8
                     height: parent.height
                     anchors.centerIn: parent
                 }
