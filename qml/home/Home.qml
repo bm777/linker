@@ -100,6 +100,7 @@ Rectangle {
             width: parent.width * 0.9
             height: parent.height * 0.9
             x: root.width * 0.1
+            y: label_org.height
             border.color: "red"
         }
     }
