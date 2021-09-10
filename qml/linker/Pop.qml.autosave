@@ -1,0 +1,13 @@
+import QtQuick 2.0
+
+Rectangle {
+    id: root
+    border.color: "blue"
+    property string position: ""
+    
+    Text {
+        text: 
+        font{family: "Comfortaa"; pointSize: 17}
+        anchors.centerIn: parent
+    }
+}
