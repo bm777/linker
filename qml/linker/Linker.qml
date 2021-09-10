@@ -88,7 +88,7 @@ Item {
                 }
                 MouseArea{
                     anchors.fill: parent
-                    onClicked: load.running = true
+                    onClicked: load.restart()
                 }
             }
             /////
