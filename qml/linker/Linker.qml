@@ -263,11 +263,15 @@ Item {
             }
         }
     }
-    Pop {
-        id: pop
-        width: parent.width * 0.8
-        height: width
-        anchors.centerIn: parent
+    Rectangle {
+        width: parent.width
+        visible: pop.visible
+        Pop {
+            id: pop
+            width: parent.width * 0.8
+            height: width
+            anchors.centerIn: parent
+        }
     }
 
     Timer {
