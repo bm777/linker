@@ -52,6 +52,15 @@ Rectangle {
             anchors.horizontalCenter: parent.horizontalCenter
             y: parent.height * 0.3
         }
+        Text {
+            id: desc
+            text: "Welcome to Linker!"
+            font{family: "Comfortaa"; pointSize: 14; bold: true}
+            anchors.centerIn: parent
+            color: "#000000"
+            anchors.horizontalCenter: parent.horizontalCenter
+            y: parent.height * 0.3
+        }
     }
     Rectangle {id: hired
         width: parent.width
