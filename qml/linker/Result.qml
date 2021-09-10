@@ -67,8 +67,8 @@ Rectangle {
     }
     Pop {
         id: pop
-        width: Screen.width * 0.5
-        height: 100
+        width: height
+        height: root.height * 2
         anchors.horizontalCenter: parent.horizontalCenter
     }
 
