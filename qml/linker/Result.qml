@@ -26,18 +26,20 @@ Rectangle {
                 color: "#1552f0"
                 anchors.centerIn: parent
             }
-            Rectangle {
-                height: parent.height * 0.5
-                width: height * 1.5
-                color: "#1552f0"
-                x: parent.width - point.x - width
-                anchors.verticalCenter: parent.verticalCenter
-                Text {
-                    text: "Open"
-                    font{family: "Comfortaa"; pointSize: 17}
-                    anchors.centerIn: parent
-                    color: "#ffffff"
-                }
+        }
+
+        // end for open
+        Rectangle {
+            height: parent.height * 0.5
+            width: height * 1.5
+            color: "#1552f0"
+            x: parent.width - point.x - width
+            anchors.verticalCenter: parent.verticalCenter
+            Text {
+                text: "Open"
+                font{family: "Comfortaa"; pointSize: 17}
+                anchors.centerIn: parent
+                color: "#ffffff"
             }
         }
     }
