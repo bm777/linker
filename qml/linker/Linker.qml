@@ -119,6 +119,10 @@ Item {
                 anchors.top: res.bottom
                 anchors.topMargin: 5
                 border.color: "red"
+                Image {
+
+                    source: "qrc:img/inf"
+                }
             }
 
             Rectangle {id: result
