@@ -30,7 +30,7 @@ Rectangle {
         height: parent.height * 0.4
         wrapMode: Text.WordWrap
     }
-    Text {
+    Text {id: lab_place
         text: place
         font{family: "Comfortaa"; pointSize: 14}
         anchors.top: lab.bottom
@@ -44,6 +44,10 @@ Rectangle {
     Rectangle {
         width: parent.width * 0.7
         height: parent.height * 0.2
+        color: "#1552F0"
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.top: lab_place.bottom
+        anchors.topMargin: 20
     }
 
 }
