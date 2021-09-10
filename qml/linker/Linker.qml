@@ -8,7 +8,7 @@ Item {
         height: parent.height
         color: "#EDF8FF"
 
-        Rectangle {
+        Rectangle {id: selector
             width: parent.width
             height: parent.height * 0.6
             radius: parent.width * 0.13
@@ -84,7 +84,7 @@ Item {
         running: linker.visible
 
         NumberAnimation {
-            target: root
+            target: selector
             property: "y"
             to: 5
             duration: 200
