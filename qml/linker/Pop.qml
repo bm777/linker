@@ -22,7 +22,8 @@ Rectangle {
     Text {
         text: position
         font{family: "Comfortaa"; pointSize: 17}
-        anchors.centerIn: parent
+        anchors.horizontalCenter: parent.horizontalCenter
+        y: parent.height * 0.2
         width: parent.width * 0.8
         height: 100
         wrapMode: Text.WordWrap
