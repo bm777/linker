@@ -24,6 +24,12 @@ Item {
 
 
     // [2] : Home place
+    Rectangle {
+        width: 100
+        height: width
+        border.color: "blue"
+    }
+
     Home {
         id: home
         width: parent.width
