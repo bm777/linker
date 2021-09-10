@@ -71,12 +71,12 @@ Rectangle {
         Rectangle {
             anchors.centerIn: parent
             width: parent.width * 0.8
-            height: 70
+            height: 50
             color: "#1552F0"
             radius: 10
             Text {
                 text: "Get Hired"
-                font{family: "Comfortaa"; pointSize: 12; bold: false}
+                font{family: "Comfortaa"; pointSize: 14; bold: true}
                 color: "#ffffff"
                 anchors.centerIn: parent
             }
