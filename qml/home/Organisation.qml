@@ -34,6 +34,8 @@ Rectangle {
             font{family: "Comfortaa"; pointSize: 14; bold: false}
             color: "#646D76"
             anchors.left: logo.right
+            anchors.leftMargin: 5
+
         }
     }
 }
