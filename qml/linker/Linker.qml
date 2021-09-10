@@ -88,7 +88,7 @@ Item {
             property: "y"
             to: root.height * 0.5
             duration: 700
-            easing.type: Easing.InCirc
+            easing.type: Easing.OutCirc
         }
     }
 }
