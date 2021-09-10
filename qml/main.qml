@@ -8,6 +8,7 @@ Window {
     height: Screen.height === 811 ? Screen.height : 811
     title: qsTr("Linker")
     property int intervalTimeout: 2500
+    property int shutdown: false
 
     // Splash
     Splash {
@@ -27,7 +28,27 @@ Window {
         running: true
         repeat: false
         onTriggered: {
-            splash.visible = false
+            shutdown = true
+        }
+    }
+
+    ParallelAnimation {
+        running: shutdown
+
+
+        NumberAnimation {
+            target: splash
+            property: "width"
+            duration: 500
+            to: 40
+            easing.type: Easing.InOutQuad
+        }
+        NumberAnimation {
+            target: splash
+            property: "height"
+            duration: 500
+            to: 40
+            easing.type: Easing.InOutQuad
         }
     }
 }
