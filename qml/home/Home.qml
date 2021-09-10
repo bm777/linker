@@ -13,6 +13,14 @@ Rectangle {
             id: farmer
             source: "qrc:img/farmer"
         }
+        Image {
+            id: share
+            source: "qrc:img/share"
+        }
+        Image {
+            id: farmer
+            source: "qrc:img/farmer"
+        }
     }
     Rectangle {id: speech
         width: parent.width
