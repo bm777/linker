@@ -28,6 +28,7 @@ Rectangle {
             Text {
                 id: label
                 text: content
+                font{family: "Comfortaa"; pointSize: 18; bold: true}
             }
         }
     }
