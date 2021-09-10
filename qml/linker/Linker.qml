@@ -17,11 +17,12 @@ Item {
             Rectangle {
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width * 0.1
-                height: 2
+                height: 5
+                y: frame_search.y / 2
                 color: "#F0F0F0"
             }
 
-            Rectangle {
+            Rectangle {id: frame_search
                 width: parent.width * 0.9
                 height: 50
                 anchors.horizontalCenter: parent.horizontalCenter
