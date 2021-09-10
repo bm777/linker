@@ -102,6 +102,7 @@ Item {
                 x: 0
                 width: root.width
                 anchors.top: res.bottom
+                anchors.topMargin: 5
                 height: 1
                 color: "#80b6b6b6"
 
@@ -114,7 +115,7 @@ Item {
                 height: selector.height - res.y - res.height
                 anchors.top: res.bottom
                 color: "transparent"
-//                border.color: "blue"
+                border.color: "blue"
             }
 
 
