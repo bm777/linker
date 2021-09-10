@@ -27,7 +27,7 @@ Rectangle {
             radius: 5
             Text {
                 id: label
-                text: qsTr("text")
+                text: content
             }
         }
     }
