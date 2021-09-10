@@ -34,6 +34,7 @@ Rectangle {
                 anchors.verticalCenter: parent.verticalCenter
                 Text {
                     text: "Open"
+                    font{family: "Comfortaa"; pointSize: 17}
                 }
             }
         }
