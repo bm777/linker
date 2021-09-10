@@ -6,7 +6,7 @@ TextField {
     color: "#80000000"
     maximumLength: 30
     hoverEnabled: true
-    font{family: "Comfortaa"; pointSize: 11}
+    font{family: "Comfortaa"; pointSize: 14}
     background: Rectangle {
         color: "transparent"
 //        border.color: "black"
