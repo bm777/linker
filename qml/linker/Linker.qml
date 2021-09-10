@@ -102,7 +102,7 @@ Item {
                 x: 0
                 width: root.width
                 anchors.top: res.bottom
-                height: 2
+                height: 1
 //                border.color: "blue"
                 layer.enabled: true
                 layer.effect: DropShadow {
