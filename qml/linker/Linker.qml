@@ -128,6 +128,7 @@ Item {
         text: "OPtimized result rearby"
         x: parent.width * 0.1
         font{family: "Comfortaa"; pointSize: 10; bold: true}
+        color: "#646D76"
     }
 
 
