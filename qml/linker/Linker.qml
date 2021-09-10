@@ -138,5 +138,12 @@ Item {
             duration: 500
             easing.type: Easing.InOutQuad
         }
+        PropertyAnimation {
+            target: selector
+            property: "y"
+            to: false
+            duration: 500
+            easing.type: Easing.InOutQuad
+        }
     }
 }
