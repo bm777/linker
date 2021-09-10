@@ -13,7 +13,7 @@ Item {
         id: home
         width: parent.width
         height: parent.height - action.width
-        anchors.centerIn: parent
+
     }
 
 
