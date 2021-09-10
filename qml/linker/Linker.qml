@@ -95,6 +95,8 @@ Item {
                 anchors.top: frame_search.bottom
                 anchors.topMargin: 10
             }
+
+
             Rectangle {
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
