@@ -21,7 +21,12 @@ Item {
                 y: x
                 radius: height/2
                 color: "#10b6b6b6"
+                // icon searcah
+                Image {
+                    source: "qrc:img/search"
+                }
 
+                // search
                 Search {
                     id: search
                     width: parent.width * 0.9
