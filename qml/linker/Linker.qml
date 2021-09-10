@@ -73,7 +73,7 @@ Item {
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: "#646D76"
                 anchors.top: frame_search.bottom
-                anchors.topMargin: width * 0.4
+                anchors.topMargin: 80
             }
         }
 
