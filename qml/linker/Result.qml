@@ -17,6 +17,8 @@ Rectangle {
             width: height
             radius: height/2
             border.color: "#1552f0"
+            anchors.verticalCenter: parent.verticalCenter
+            x: y
         }
     }
 }
