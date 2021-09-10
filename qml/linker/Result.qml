@@ -38,7 +38,7 @@ Rectangle {
             anchors.verticalCenter: parent.verticalCenter
             Text {
                 text: "Open"
-                font{family: "Comfortaa"; pointSize: 14}
+                font{family: "Comfortaa"; pointSize: 12}
                 anchors.centerIn: parent
                 color: "#ffffff"
             }
