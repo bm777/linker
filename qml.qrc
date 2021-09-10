@@ -25,5 +25,6 @@
         <file>qml/linker/Result.qml</file>
         <file alias="img/inf">img/inf.gif</file>
         <file alias="img/loading">img/loading.gif</file>
+        <file>qml/linker/Pop.qml</file>
     </qresource>
 </RCC>
