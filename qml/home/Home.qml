@@ -3,6 +3,7 @@ import QtQuick 2.0
 Rectangle {
     id: root
 //    color: "red"
+    property string content: "Potential"
 
     Rectangle {id: logomark
         width: parent.width
@@ -24,6 +25,10 @@ Rectangle {
             color: "#1552F0"
             rotation: -10
             radius: 5
+            Text {
+                id: label
+                text: qsTr("text")
+            }
         }
     }
     Rectangle {id: speech
