@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import QtGraphicalEffects 1.12
 import "home"
+import "linker"
 
 Item {
     id: root
@@ -17,7 +18,10 @@ Item {
     }
 
     // [3] : Linker to get hired
-
+    Linker {
+        id: linker
+        visible: action.linker_clicked
+    }
 
     // [1] : action menu
     Action {
