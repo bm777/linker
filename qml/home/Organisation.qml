@@ -43,9 +43,9 @@ Rectangle {
             text: "+"+value
             font{family: "Comfortaa"; pointSize: 9; bold: false}
             color: "#646D76"
-            anchors.left: logo.right
-            anchors.leftMargin: 5
-            anchors.verticalCenter: logo.verticalCenter
+            anchors.top: logo.right
+            anchors.topMargin: parent.height * 0.2
+            anchors.verticalCenter: parent.horizontalCenter
         }
     }
 }
