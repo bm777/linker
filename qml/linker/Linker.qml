@@ -112,7 +112,7 @@ Item {
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width * 0.9
-                height: selector.height - res.y - res.height
+                height: selector.height - res.y - res.height - 5
                 anchors.top: res.bottom
                 anchors.topMargin: 5
                 color: "transparent"
