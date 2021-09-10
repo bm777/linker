@@ -267,7 +267,7 @@ Item {
         width: parent.width
         height: root.height
         visible: pop.visible
-        color: "red"
+        color: "#201552f0"
 
     }
     Pop {
