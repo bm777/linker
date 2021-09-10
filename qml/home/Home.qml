@@ -89,7 +89,7 @@ Rectangle {
         border.color: "blue"
         color: "transparent"
         Text {
-            text: "Get Hired"
+            text: "Top organisations"
             font{family: "Comfortaa"; pointSize: 14; bold: true}
             color: "#000000"
 
