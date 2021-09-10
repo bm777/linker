@@ -7,7 +7,7 @@ Window {
     width: Screen.width === 411 ? Screen.width : 411
     height: Screen.height === 811 ? Screen.height : 811
     title: qsTr("Linker")
-    property int intervalTimeout: 1500//2500
+    property int intervalTimeout: 500//2500
     property bool shutdown: false
 
 
