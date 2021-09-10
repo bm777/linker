@@ -42,7 +42,7 @@ Rectangle {
         Text {
             text: "+"+value
             font{family: "Comfortaa"; pointSize: 30; bold: false}
-            color: "#646D76"
+            color: "#5F907C"
             anchors.top: logo.bottom
             anchors.topMargin: parent.height * 0.15
             anchors.horizontalCenter: parent.horizontalCenter
