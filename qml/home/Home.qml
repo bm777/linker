@@ -114,7 +114,7 @@ Rectangle {
                     id: row
 
                     Organisation {
-                        height: parent.height * 0.7
+                        height: org.height * 0.7
                         width: height
                     }
                 }
