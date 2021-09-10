@@ -86,7 +86,7 @@ Rectangle {
         width: parent.width
         height: parent.height * 0.3
         anchors.top: hired  .bottom
-        border.color: "blue"
+//        border.color: "blue"
         color: "transparent"
         Text {
             text: "Top organisations"
