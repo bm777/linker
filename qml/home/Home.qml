@@ -64,7 +64,7 @@ Rectangle {
     }
     Rectangle {id: hired
         width: parent.width
-        height: parent.height * 0.2
+        height: parent.height * 0.15
         anchors.top: speech.bottom
         border.color: "blue"
         color: "transparent"
@@ -84,7 +84,7 @@ Rectangle {
     }
     Rectangle {id: org
         width: parent.width
-        height: parent.height * 0.25
+        height: parent.height * 0.3
         anchors.top: hired  .bottom
 //        border.color: "blue"
         color: "transparent"
