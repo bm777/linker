@@ -5,14 +5,14 @@ Rectangle {
     id: root
 
     RectangularGlow {
-        anchors.fill: rect
-        glowRadius: 10
+        anchors.fill: child
+        glowRadius: 4
         spread: 0.2
-        color: "white"
-        cornerRadius: rect.radius + glowRadius
+        color: "#000000"
+        cornerRadius: glowRadius
     }
 
-    Rectangle {
+    Rectangle {id: child
         width: parent.width * 0.9
         height: width
         radius: 4
