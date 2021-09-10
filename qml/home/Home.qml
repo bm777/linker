@@ -12,6 +12,8 @@ Rectangle {
         Rectangle {
             width: parent.width * 0.5
             height: width
+            anchors.centerIn: parent
+            color: "#1552F0"
         }
     }
     Rectangle {id: speech
