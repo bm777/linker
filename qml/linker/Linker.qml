@@ -27,7 +27,7 @@ Item {
                     height: parent.height * 0.4
                     width: height
                     anchors.verticalCenter: parent.verticalCenter
-//                    anchors.right: search.left
+                    x: 5
                 }
 
                 // search
