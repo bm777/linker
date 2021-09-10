@@ -13,7 +13,7 @@ Rectangle {
         height: parent.height * 0.95
         radius: 5
 
-        Rectangle {
+        Rectangle {id: circle
             height: parent.height * 0.5
             width: height
             radius: height/2
@@ -53,8 +53,8 @@ Rectangle {
             width: parent.width * 0.7
             height: parent.height * 0.5
             wrapMode: Text.WordWrap
-            anchors.left: point.right
-            x: point.x+ point.width
+            anchors.left: circle.right
+
         }
     }
 }
