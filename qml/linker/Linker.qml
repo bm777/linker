@@ -117,13 +117,13 @@ Item {
 //                border.color: "blue"
             }
             DropShadow {
-                anchors.fill: result
+                anchors.fill: separator
                 horizontalOffset: 3
                 verticalOffset: 3
                 radius: 8.0
                 samples: 17
                 color: "#80000000"
-                source: result
+                source: separator
             }
 
 
