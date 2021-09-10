@@ -5,6 +5,7 @@ Rectangle {
     id: root
 //    border.color: "red"
     property string img: "qrc:img/e1"
+    property string img: "getBoarded"
 
     RectangularGlow {
         anchors.fill: child
@@ -21,11 +22,15 @@ Rectangle {
         anchors.centerIn: parent
 
         Image {
+            id: logo
             source: img
             width: parent.width * 0.25
             height: width
             x: parent.width * 0.1
             y: x
+        }
+        Text {
+            text: company
         }
     }
 }
