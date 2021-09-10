@@ -66,7 +66,7 @@ Window {
             property: "radius"
             duration: 500
 //                from: 40
-            to: splash.height/2
+            to: splash.width/2
             easing.type: Easing.InOutQuad
         }
         NumberAnimation {
