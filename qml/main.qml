@@ -35,7 +35,7 @@ Window {
     }
 
     ParallelAnimation {
-        running: true
+
         id: effect
 
         NumberAnimation {
