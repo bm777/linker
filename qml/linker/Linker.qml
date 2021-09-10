@@ -15,6 +15,13 @@ Item {
             y: parent.height * 0.5
 
             Rectangle {
+                anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width * 0.1
+                height: 2
+                color: "#F0F0F0"
+            }
+
+            Rectangle {
                 width: parent.width * 0.9
                 height: 50
                 anchors.horizontalCenter: parent.horizontalCenter
