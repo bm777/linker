@@ -75,7 +75,7 @@ Rectangle {
         anchors.verticalCenter: parent.verticalCenter
 
         Image {id: setting
-            source: "qrc:img/set"
+            source: setting_clicked ? "qrc:img/set" : "qrc:img/set-d"
             anchors.horizontalCenter: parent.horizontalCenter
             height: parent.height * 0.5
             width: height
