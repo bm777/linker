@@ -88,7 +88,7 @@ Item {
             Text {
                 id: res
                 visible: !submit.visible
-                text: "OPtimized result rearby"
+                text: "Optimized results rearby"
                 x: parent.width * 0.1
                 font{family: "Comfortaa"; pointSize: 12; bold: false}
                 color: "#646D76"
