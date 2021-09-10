@@ -97,6 +97,12 @@ Item {
                 anchors.topMargin: 10
             }
 
+            Rectangle {
+                visible: !submit.visible
+                anchors.horizontalCenter: parent.horizontalCenter
+                width: parent.width
+                 anchors.top: res.bottom
+            }
 
             Rectangle {id: result
                 visible: !submit.visible
