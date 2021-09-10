@@ -19,7 +19,7 @@ Item {
                 width: parent.width * 0.13
                 height: 5
                 radius: height/2
-                y: frame_search.y / 2
+                y: frame_search.y / 2 - height/2
                 color: "#F0F0F0"
             }
 
