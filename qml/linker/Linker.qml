@@ -76,8 +76,19 @@ Item {
                 anchors.topMargin: 20
             }
         }
+    }
 
 
+    /// SequentialAnimation
+    SequentialAnimation {
+        running: linker.visible
 
+        NumberAnimation {
+            target: linker
+            property: "y"
+            to: 5
+            duration: 200
+            easing.type: Easing.InOutQuad
+        }
     }
 }
