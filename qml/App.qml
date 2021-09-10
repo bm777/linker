@@ -19,8 +19,7 @@ Item {
         id: home
         width: parent.width
         height: parent.height - action.width
-        anchors.horizontalCenter: parent.horizontalCenter
-        y:0
+        anchors.centerIn: parent
     }
 
 
