@@ -2,7 +2,7 @@ import QtQuick 2.0
 import QtQuick.Controls 2.0
 
 TextField {
-    placeholderText: "Search by Town or Potition"
+    placeholderText: "Search by Place or Potition"
 
     property string lang: ""
     property string thema: ""
