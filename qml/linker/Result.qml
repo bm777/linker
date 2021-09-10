@@ -31,7 +31,8 @@ Rectangle {
         // end for open
         Rectangle {
             height: parent.height * 0.5
-            width: height * 1.5
+            width: height * 2
+            radius: height/2
             color: "#1552f0"
             x: parent.width - point.x - width
             anchors.verticalCenter: parent.verticalCenter
