@@ -7,7 +7,10 @@ Item {
         width: parent.width
         height: parent.height
 
-
+        Rectangle {
+            width: parent.width
+            height: parent.height * 0.5
+        }
 
 
     }
