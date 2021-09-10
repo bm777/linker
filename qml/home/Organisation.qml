@@ -32,7 +32,7 @@ Rectangle {
         }
         Text {
             text: company
-            font{family: "Comfortaa"; pointSize: 9; bold: false}
+            font{family: "Comfortaa"; pointSize: 10; bold: false}
             color: "#646D76"
             anchors.left: logo.right
             anchors.leftMargin: 5
@@ -49,7 +49,7 @@ Rectangle {
         }
         Text {
             text: "total hired last month"
-            font{family: "Comfortaa"; pointSize: 8; bold: false}
+            font{family: "Comfortaa"; pointSize: 9; bold: false}
             color: "#3ba55d"
             anchors.top: logo.bottom
             anchors.topMargin: parent.height * 0.15
