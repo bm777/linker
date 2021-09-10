@@ -12,7 +12,7 @@ Item {
             width: parent.width
             height: parent.height * 0.6
             radius: parent.width * 0.13
-            y: parent.height * 0.5
+            y: root.height //parent.height * 0.5
 
             Rectangle {
                 anchors.horizontalCenter: parent.horizontalCenter
