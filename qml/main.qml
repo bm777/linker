@@ -14,6 +14,7 @@ Window {
     Splash {
         id: splash
         visible: true
+        anchors.fill: parent
     }
 
 
