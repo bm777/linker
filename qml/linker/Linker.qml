@@ -28,6 +28,8 @@ Item {
                 font{family: "Comfortaa"; pointSize: 15; bold: true}
                 anchors.horizontalCenter: parent.horizontalCenter
                 color: "#1552F0"
+                anchors.bottom: frame_search.top
+                anchors.bottomMargin: 20
             }
 
             Rectangle {id: frame_search
