@@ -119,7 +119,7 @@ Item {
                 anchors.top: res.bottom
                 anchors.topMargin: 5
                 border.color: "red"
-                Image {
+                AnimatedImage{
 
                     source: "qrc:img/inf"
                     anchors.horizontalCenter: parent.horizontalCenter
