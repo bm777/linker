@@ -24,7 +24,7 @@ Rectangle {
         Image {
             id: boss
             source: "qrc:img/boss"
-            y: link.x - height/2
+            y: link.x + height/2
         }
     }
     Rectangle {id: speech
