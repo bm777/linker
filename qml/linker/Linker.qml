@@ -4,12 +4,13 @@ import QtQuick.Controls 2.5
 
 Item {
     id: linker
+    property real inter: selector.width * 0.98
     Rectangle {
         id: root
         width: parent.width
         height: parent.height
         color: "#EDF8FF"
-        property real inter: selector.width * 0.98
+
         ////////////////////////////////////////////////////////////////////////////
         Rectangle {id: selector
             width: parent.width
