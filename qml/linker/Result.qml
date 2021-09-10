@@ -53,6 +53,7 @@ Rectangle {
             width: parent.width * 0.7
             height: parent.height * 0.5
             wrapMode: Text.WordWrap
+            anchors.left: point.right
         }
     }
 }
