@@ -3,16 +3,7 @@ import QtQuick 2.0
 Rectangle {
     id: root
     color: "#1552F0"
-    Behavior on width {
-        NumberAnimation {
-            target: root
-            property: "radius"
-            duration: 500
-            from: 40
-            to: 50
-            easing.type: Easing.InOutQuad
-        }
-    }
+
 
 
     // content text
