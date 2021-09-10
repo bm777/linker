@@ -18,5 +18,5 @@ Item {
         color: "#ffffff"
     }
 
-    onWidthChanged: label.visible = false
+//    onWidthChanged: label.visible = false
 }
