@@ -108,6 +108,7 @@ Rectangle {
                 height: parent.height
                 contentWidth: row.width
                 contentHeight: row.height
+                spacing: 5
 
                 Row {
                     id: row
