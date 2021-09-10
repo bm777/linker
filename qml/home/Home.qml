@@ -114,7 +114,7 @@ Rectangle {
                 Row {
                     id: row
 
-                    Organisation {
+                    Organisation {id: c
                         height: org.height * 0.7
                         width: height
                     }
@@ -127,9 +127,22 @@ Rectangle {
                         width: height
                     }
                 }
+
+                onXChanged: motion.restart()
             }
 
         }
     }
+
+
+    Timer {
+            id: motion
+            interval: 200
+            repeat: false
+
+            onTriggered: {
+                console.log("do something")
+            }
+        }
 
 }
