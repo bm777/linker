@@ -109,6 +109,7 @@ Item {
                     transparentBorder: true
                     horizontalOffset: 8
                     verticalOffset: 8
+                    color: "#40000000"
                 }
             }
 
