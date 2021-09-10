@@ -8,7 +8,7 @@ Rectangle {
         anchors.fill: child
         glowRadius: 4
         spread: 0.2
-        color: "#000000"
+        color: "#20000000"
         cornerRadius: glowRadius
     }
 
