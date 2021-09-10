@@ -6,7 +6,7 @@ Rectangle {
     property string position: "How to plant rice ? this will show you how to plant on a wrong saison."
 
     Rectangle {
-        width: parent.width * 0.1
+        width: parent.width * 0.13
         height: width
         radius: height/2
         border.color: "#1552F0"
