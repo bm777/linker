@@ -48,8 +48,8 @@ Rectangle {
             anchors.horizontalCenter: parent.horizontalCenter
         }
         Text {
-            text: "actively hirer last month"
-            font{family: "Comfortaa"; pointSize: 30; bold: false}
+            text: "total hired last month"
+            font{family: "Comfortaa"; pointSize: 8; bold: false}
             color: "#3ba55d"
             anchors.top: logo.bottom
             anchors.topMargin: parent.height * 0.15
