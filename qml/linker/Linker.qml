@@ -25,6 +25,7 @@ Item {
                 Search {
                     id: search
                     width: parent.width
+                    height: parent.height
                 }
             }
         }
