@@ -16,7 +16,7 @@ Item {
 
             Rectangle {
                 anchors.horizontalCenter: parent.horizontalCenter
-                width: parent.width * 0.1
+                width: parent.width * 0.15
                 height: 5
                 y: frame_search.y / 2
                 color: "#F0F0F0"
