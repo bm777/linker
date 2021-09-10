@@ -142,7 +142,7 @@ Item {
             target: submit
             property: "visible"
             to: false
-            duration: 500
+            duration: 100
             easing.type: Easing.InOutQuad
         }
     }
