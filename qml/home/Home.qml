@@ -95,7 +95,7 @@ Rectangle {
             x: root.width * 0.1
         }
         Organisation {
-            anchors.top: label_org.bottom
+            y: parent.height - label_org.height
             height: parent.height * 0.7
             width: height
         }
