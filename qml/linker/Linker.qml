@@ -101,7 +101,8 @@ Item {
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width
-                 anchors.top: res.bottom
+                anchors.top: res.bottom
+                height: 1
             }
 
             Rectangle {id: result
