@@ -8,7 +8,7 @@ Window {
     height: Screen.height === 811 ? Screen.height : 811
     title: qsTr("Linker")
     property int intervalTimeout: 2500
-    property int shutdown: false
+    property bool shutdown: false
 
     // Splash
     Splash {
