@@ -18,8 +18,8 @@ Rectangle {
             source: "qrc:img/link"
             x: parent.width/2 - width/2
             y: parent.height/2 - height/2
-            width: 100
-            height: width
+//            width: 100
+//            height: width
         }
         Image {
             id: boss
