@@ -25,11 +25,11 @@ Rectangle {
         anchors.horizontalCenter: parent.horizontalCenter
         y: parent.height * 0.2
         width: parent.width * 0.8
-        height: 100
+        height: parent.height * 0.4
         wrapMode: Text.WordWrap
     }
     Text {
-        text: position
+        text: place
         font{family: "Comfortaa"; pointSize: 17}
         anchors.horizontalCenter: parent.horizontalCenter
         y: parent.height * 0.2
