@@ -122,7 +122,8 @@ Rectangle {
                         height: org.height * 0.7
                         width: height
                         company: "ShoppyCM"
-
+                        img: "qrc:img/e2"
+                        value: 28
                     }
                     Organisation {
                         height: org.height * 0.7
