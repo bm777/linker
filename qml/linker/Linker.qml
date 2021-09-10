@@ -10,7 +10,7 @@ Item {
 
         Rectangle {id: selector
             width: parent.width
-            height: parent.height * 0.6
+            height: parent.height * 1
             radius: parent.width * 0.13
             y: root.height //parent.height * 0.5
 
