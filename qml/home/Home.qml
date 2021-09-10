@@ -106,10 +106,12 @@ Rectangle {
                 clip: true
                 width: parent.width
                 height: parent.height
-                contentWidth: 100
-                contentHeight: 100
+                contentWidth: row.width
+                contentHeight: row.height
 
-
+                Row {
+                    id: row
+                }
             }
 
         }
