@@ -14,6 +14,8 @@ Rectangle {
             source: "qrc:img/farmer"
             y: link.y - height/2
             anchors.right: link.left
+            width: 50
+            height: width
         }
         Image {
             id: link
@@ -27,6 +29,8 @@ Rectangle {
             source: "qrc:img/boss"
             y: link.y + height/2
             anchors.left: link.right
+            width: 50
+            height: width
         }
     }
     Rectangle {id: speech
