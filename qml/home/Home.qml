@@ -12,7 +12,7 @@ Rectangle {
     }
     Rectangle {id: speech
         width: parent.width
-        height: parent.height * 0.2
+        height: parent.height * 0.15
         anchors.top: logomark.bottom
         border.color: "blue"
         color: "transparent"
@@ -26,7 +26,7 @@ Rectangle {
     }
     Rectangle {id: org
         width: parent.width
-        height: parent.height * 0.2
+        height: parent.height * 0.25
         anchors.top: hired  .bottom
         border.color: "blue"
         color: "transparent"
