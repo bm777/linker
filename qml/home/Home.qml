@@ -27,7 +27,7 @@ Rectangle {
         Image {
             id: boss
             source: "qrc:img/boss"
-            y: link.y + height/2
+            y: link.y + height
             anchors.left: link.right
             width: 50
             height: width
