@@ -6,6 +6,7 @@ Item {
         id: root
         width: parent.width
         height: parent.height
+        color: "#EDF8FF"
 
         Rectangle {
             width: parent.width
