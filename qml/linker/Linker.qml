@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import QtGraphicalEffects 1.15
 
 Item {
     id: linker
@@ -97,7 +98,7 @@ Item {
             }
 
 
-            Rectangle {
+            Rectangle {id: result
                 visible: !submit.visible
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width * 0.9
@@ -105,6 +106,15 @@ Item {
                 anchors.top: res.bottom
                 color: "transparent"
 //                border.color: "blue"
+            }
+            DropShadow {
+                anchors.fill: result
+                horizontalOffset: 3
+                verticalOffset: 3
+                radius: 8.0
+                samples: 17
+                color: "#80000000"
+                source: result
             }
 
 
