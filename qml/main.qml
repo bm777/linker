@@ -65,7 +65,7 @@ Window {
             property: "y"
             duration: 500
 //                from: 40
-            to: root.height - 80
+            to: root.height - 60
             easing.type: Easing.InOutQuad
         }
     }
