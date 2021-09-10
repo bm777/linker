@@ -54,7 +54,8 @@ Rectangle {
             height: parent.height * 0.5
             wrapMode: Text.WordWrap
             anchors.left: circle.right
-
+            anchors.leftMargin: 5
+            y: circle.y
         }
     }
 }
