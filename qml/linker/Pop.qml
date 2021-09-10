@@ -48,6 +48,9 @@ Rectangle {
         radius: height * 0.2
         Text {
             text: "Go Forward"
+            font{family: "Comfortaa"; pointSize: 15}
+            anchors.centerIn: parent
+            color: "#1552F0"
         }
     }
 
