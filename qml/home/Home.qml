@@ -10,7 +10,7 @@ Rectangle {
         border.color: "blue"
         color: "transparent"
         Rectangle {
-            width: parent.width * 0.5
+            width: parent.width * 0.4
             height: width
             anchors.centerIn: parent
             color: "#1552F0"
