@@ -6,7 +6,7 @@ Rectangle {
 
     Rectangle {id: logomark
         width: parent.width
-        height: parent.height * 0.25
+        height: parent.height * 0.4
         border.color: "blue"
     }
     Rectangle {id: speech
