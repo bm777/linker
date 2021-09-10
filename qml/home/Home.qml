@@ -10,7 +10,7 @@ Rectangle {
         height: parent.height * 0.4
         border.color: "blue"
         color: "transparent"
-        Rectangle {
+        Rectangle {id: mover
             width: parent.width * 0.4
             height: width
             anchors.centerIn: parent
@@ -23,7 +23,7 @@ Rectangle {
             height: width
             anchors.centerIn: parent
             color: "#1552F0"
-            rotation: -10
+            rotation: -mover.rotation
             radius: 5
             Text {
                 id: label
