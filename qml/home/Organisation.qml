@@ -5,7 +5,7 @@ Rectangle {
     id: root
 //    border.color: "red"
     property string img: "qrc:img/e1"
-    property string company: "getBoarded"
+    property string company: "GetBoarded"
 
     RectangularGlow {
         anchors.fill: child
