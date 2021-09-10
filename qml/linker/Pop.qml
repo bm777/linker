@@ -30,9 +30,10 @@ Rectangle {
     }
     Text {
         text: place
-        font{family: "Comfortaa"; pointSize: 17}
+        font{family: "Comfortaa"; pointSize: 14}
         anchors.top: lab.bottom
-
+        color: "#1552F0"
+        x: lab.x
         width: parent.width * 0.8
         height: 100
         wrapMode: Text.WordWrap
