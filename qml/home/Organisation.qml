@@ -52,8 +52,8 @@ Rectangle {
             font{family: "Comfortaa"; pointSize: 9; bold: false}
             color: "#3ba55d"
             anchors.top: v.bottom
-            anchors.topMargin: parent.height * 0.15
-            anchors.horizontalCenter: parent.horizontalCenter
+            anchors.topMargin: parent.height * 0.05
+            x: v.x
         }
     }
 }
