@@ -45,7 +45,7 @@ Rectangle {
         color: "#1552F0"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: lab_place.bottom
-
+        anchors.topMargin: 10
     }
 
 }
