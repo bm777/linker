@@ -11,7 +11,7 @@ Rectangle {
     // content text
     Text {
         id: label
-        visible: root.width < 300
+        visible: root.width < 300 ? false : true
         text: "L i n k e r"
         font{family: "Comfortaa"; pointSize: 32; bold: true}
         anchors.centerIn: parent
