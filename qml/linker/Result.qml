@@ -52,7 +52,7 @@ Rectangle {
             font{family: "Comfortaa"; pointSize: 14}
             width: parent.width * 0.7
             height: parent.height * 0.5
-            wrapMode: Text.wrapMode
+            wrapMode: Text.WordWrap
         }
     }
 }
