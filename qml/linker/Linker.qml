@@ -84,6 +84,17 @@ Item {
                 }
             }
             /////
+            ////////////////////////////////////////////////////////////////////////////////////
+            Text {
+                id: res
+                text: "OPtimized result rearby"
+                x: parent.width * 0.1
+                font{family: "Comfortaa"; pointSize: 10; bold: true}
+                color: "#646D76"
+            }
+
+
+            ////////////////////////////////////////////////////////////////////////////////////
 
             Text {
                 id: desc
@@ -122,17 +133,7 @@ Item {
         }
     }
 
-    ////////////////////////////////////////////////////////////////////////////////////
-    Text {
-        id: res
-        text: "OPtimized result rearby"
-        x: parent.width * 0.1
-        font{family: "Comfortaa"; pointSize: 10; bold: true}
-        color: "#646D76"
-    }
 
-
-    ////////////////////////////////////////////////////////////////////////////////////
 
 
     /// SequentialAnimation
