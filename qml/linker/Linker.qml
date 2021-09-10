@@ -116,7 +116,7 @@ Item {
                 height: selector.height - res.y - res.height - 5 // 5 is for separator
                 anchors.top: res.bottom
                 anchors.topMargin: 5
-                color: "#401552f0"
+                color: "#D4EDFF"
 //                border.color: "blue"
                 ScrollView {
                     clip: true
