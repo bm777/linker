@@ -98,7 +98,7 @@ Item {
             Rectangle {
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: parent.width * 0.8
-                height: root.height - frame_search.height
+                height: root.height - frame_search.height - 100
                 anchors.top: res.bottom
                 border.color: "blue"
             }
