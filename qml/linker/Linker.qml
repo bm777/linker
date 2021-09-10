@@ -250,7 +250,7 @@ Item {
 
     Timer {
         id: load
-        interval: 1500
+        interval: 2000
         repeat: false
         onTriggered: {
             result.visible = true
