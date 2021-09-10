@@ -87,8 +87,8 @@ Item {
             target: selector
             property: "y"
             to: root.height * 0.5
-            duration: 700
-            easing.type: Easing.InOutElastic
+            duration: 500
+            easing.type: Easing.OutBack
         }
     }
 }
