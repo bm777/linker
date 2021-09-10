@@ -50,7 +50,7 @@ Rectangle {
             text: "Go Forward"
             font{family: "Comfortaa"; pointSize: 15}
             anchors.centerIn: parent
-            color: "#1552F0"
+            color: "#ffffff"
         }
     }
 
