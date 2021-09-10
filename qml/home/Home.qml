@@ -128,7 +128,7 @@ Rectangle {
                     Organisation {
                         height: org.height * 0.7
                         width: height
-                        company: "Linker"
+                        company: "WorkerTN"
                         img: "qrc:img/e3"
                         value: 28
                     }
