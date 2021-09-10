@@ -5,7 +5,7 @@ Rectangle {
 //    radius: height /2
     height: 70
     color: "#D4EDFF"
-    property string position: "How to plant a rice during a worng period"
+    property string position: "How to plant a rice during a wrong period"
 //    radius: height/2
     Rectangle {
         anchors.centerIn: parent
