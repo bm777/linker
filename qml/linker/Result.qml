@@ -11,5 +11,12 @@ Rectangle {
         width: parent.width
         height: parent.height * 0.9
         radius: 5
+
+        Rectangle {
+            height: parent.height * 0.5
+            width: height
+            radius: height/2
+            border.color: "#1552f0"
+        }
     }
 }
