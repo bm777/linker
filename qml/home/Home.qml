@@ -8,24 +8,28 @@ Rectangle {
         width: parent.width
         height: parent.height * 0.4
         border.color: "blue"
+        color: "transparent"
     }
     Rectangle {id: speech
         width: parent.width
         height: parent.height * 0.25
         anchors.top: logomark.bottom
         border.color: "blue"
+        color: "transparent"
     }
     Rectangle {id: hired
         width: parent.width
         height: parent.height * 0.25
         anchors.top: speech.bottom
         border.color: "blue"
+        color: "transparent"
     }
     Rectangle {id: org
         width: parent.width
         height: parent.height * 0.25
         anchors.top: hired  .bottom
         border.color: "blue"
+        color: "transparent"
     }
 
 }
