@@ -33,6 +33,7 @@ Rectangle {
             anchors.fill: parent
             onClicked: {
                 label_home.color = "#1552F0"
+                label_setting.color = "#5E7B94"
                 home_clicked = true
                 linker_clicked = false
                 setting_clicked = false
@@ -54,6 +55,16 @@ Rectangle {
             anchors.centerIn: parent
             color: "#ffffff"
         }
+        MouseArea {
+            anchors.fill: parent
+            onClicked: {
+                label_home.color = "#1552F0"
+                label_setting.color = "#5E7B94"
+                home_clicked = true
+                linker_clicked = false
+                setting_clicked = false
+            }
+        }
     }
 
     ///
@@ -70,13 +81,23 @@ Rectangle {
             width: height
         }
 
-        Text {
+        Text {id: label_setting
             text: "Setting"
             font{family: "Comfortaa"; pointSize: 12; bold: true}
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: setting.bottom
             anchors.topMargin: 4
             color: "#1552F0"
+        }
+        MouseArea {
+            anchors.fill: parent
+            onClicked: {
+                label_home.color = "#5E7B94"
+                label_setting.color = "#1552F0"
+                home_clicked = false
+                linker_clicked = false
+                setting_clicked = true
+            }
         }
     }
 }
