@@ -15,6 +15,7 @@ Rectangle {
             anchors.centerIn: parent
             color: "#1552F0"
             rotation: 10
+            radius: 5
         }
     }
     Rectangle {id: speech
