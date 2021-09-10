@@ -9,7 +9,6 @@
         <file>qml/Action.qml</file>
         <file alias="img/home">img/home.png</file>
         <file alias="img/ho-dark">img/home-dark.png</file>
-        <file alias="img/link">img/link.png</file>
         <file alias="img/set">img/setting.png</file>
         <file alias="img/set-dark">img/setting-dark.png</file>
         <file alias="img/share">img/share.png</file>
