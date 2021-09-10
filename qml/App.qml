@@ -4,6 +4,7 @@ import QtGraphicalEffects 1.12
 Item {
     id: root
 
+    // [1] : action menu
     Action {
         id: action
         width: parent.width
