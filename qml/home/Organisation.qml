@@ -32,7 +32,7 @@ Rectangle {
         }
         Text {
             text: company
-            font{family: "Comfortaa"; pointSize: 12; bold: false}
+            font{family: "Comfortaa"; pointSize: 13; bold: false}
             color: "#000000"
             anchors.left: logo.right
             anchors.leftMargin: 5
@@ -49,7 +49,7 @@ Rectangle {
         }
         Text {
             text: "Total hired"
-            font{family: "Comfortaa"; pointSize: 9; bold: false}
+            font{family: "Comfortaa"; pointSize: 11; bold: false}
             color: "#646D76"
             anchors.top: v.bottom
             anchors.topMargin: parent.height * 0.01
