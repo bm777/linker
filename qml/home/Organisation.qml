@@ -18,5 +18,9 @@ Rectangle {
         height: width
         radius: 4
         anchors.centerIn: parent
+
+        Image {
+            source: "qrc:img/e1"
+        }
     }
 }
