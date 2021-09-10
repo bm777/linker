@@ -114,10 +114,9 @@ Item {
         running: linker.visible
 
         NumberAnimation {
-            running: stop()
             target: selector
             property: "y"
-            to: root.height * 0.5
+            to: selector.y === 0 ? 0 : root.height * 0.5
             duration: 500
             easing.type: Easing.OutBack
         }
