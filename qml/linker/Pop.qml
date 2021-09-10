@@ -41,5 +41,9 @@ Rectangle {
         wrapMode: Text.WordWrap
     }
 
+    Rectangle {
+        width: parent.width * 0.7
+        height: parent.height * 0.2
+    }
 
 }
