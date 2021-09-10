@@ -112,7 +112,7 @@ Item {
                 height: selector.height - res.y - res.height
                 anchors.top: res.bottom
                 color: "transparent"
-//                border.color: "blue"
+                border.color: "blue"
             }
 //            DropShadow {
 //                anchors.fill: result
