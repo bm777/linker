@@ -102,7 +102,7 @@ Item {
                 anchors.horizontalCenter: parent.horizontalCenter
                 width: root.width
                 anchors.top: res.bottom
-                height: 1
+                height: 2
                 border.color: "blue"
             }
 
